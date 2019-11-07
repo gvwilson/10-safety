@@ -62,7 +62,33 @@ FIXME
 -   Random URLs via email do this as well: you *have* access to the email address
     -   But anyone who gains access to your email can then trigger a password reset cycle and steal your account
 
-## Rule 5: Tighten your social media privacy settings.
+## Rule 5: Encrypt your drives.
+
+-   FIXME: explain drive encryption
+
+## Rule 6: Don't open that.
+
+-   Documents can contain code that automatically executes when the document is opened
+-   Websites can run code in your browser
+-   Attempts to get you to open email attachments, click on a link, install software, or log in are called *phishing* attacks
+-   Do not open email attachments
+    -   Even if you trust the person who sent it, because their computer might just have been compromised
+-   When opening a web site, check the real domain name in the URL
+    -   Even this is tricky: `wwwpaypal.com` is a different domain than `www.paypal.com`
+    -   `paypaI.com` (with an upper-case 'I' instead of a lower-case 'l') is different again
+-   *Spearphishing* (targeted attacks using data harvested from other victims) are even more tempting
+-   Password managers keep track of sites and aren't fooled by similar-seeming letters
+-   Verify emails (e.g., call people)
+-   And verify instructions as well (e.g., password reset instructions from IT departments)
+    -   Note that many IT departments actually send out instructions that are indistinguishable from spearphishing attacks
+    -   Which just trains people to be victims
+
+## Rule 7: Check your devices periodically.
+
+-   Because everyone makes mistakes
+-   FIXME: what to recommend
+
+## Rule 8: Tighten your social media privacy settings.
 
 -   Facebook, Twitter, and others make money selling targeted advertising to you and data about you
     -   Laws guaranteeing free speech don't actually require them to give a platform to hate speech
@@ -70,11 +96,11 @@ FIXME
 -   Go through settings periodically and turn off almost everything
     -   As tedious and as necessary as cleaning leaves out of your gutters
 
-## Rule 6: FIXME
+## Rule 9: Use Tor.
 
-## Rule 7: FIXME
+-   FIXME: explain how Tor works and why to use it.
 
-## Rule 8: Erase, then discard.
+## Rule 10: Erase, then discard.
 
 -   Reporters and private investigators go dumpster diving regularly
 -   Assume that any account you shut down or any device you throw away is going to fall into unfriendly hands
@@ -87,11 +113,9 @@ FIXME
     -   And none of this affects backups, files stored online (e.g., Dropbox)
 -   Best answer is to encrypt the drive in the first place
 
-## Rule 9: Encrypt your drives.
+## Conclusion
 
--   FIXME: explain drive encryption
-
-## Rule 10: FIXME
+-   Ask candidates about strengthening liability legislation
 
 ## Bibliography
 
