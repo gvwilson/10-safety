@@ -13,6 +13,7 @@ FIXME
 ## Rule 1: Use realistic threat models.
 
 -   You can't protect yourself from serious professionals, but most of us aren't their targets
+    -   But people who are designing systems *should* design them to protect against such threats
 -   Hollywood depictions of real threats are as far from reality as their portrayals of scientists
 -   **Monica** (professor in psychology) vs. **Mohan** (undergraduate in computer science)
     -   Mohan spends hours every day in online echo chambers complaining about how "SJW bullshit" is ruining tech
@@ -32,13 +33,16 @@ FIXME
 ## Rule 2: Digital security is rarely the weakest link.
 
 -   Safety comes from habits, not technology
+    -   Technology should make security the easy default—people should need to know which links to click—but
+        a lot of what we use was designed in a more innocent time
+    -   Things haven't gotten better in the last 20 years
 -   At an airport several years ago listening to a professor of computer science try to re-set an online account over the phone
     -   Full name, address, date of birth, and what was almost certainly their mother's maiden name…
     -   …all loudly enough to be heard by two dozen people
 -   On that same trip, a stranger (also a computer science professor) asked me to watch their laptop while they went to the washroom
     -   They were logged in to several online accounts at the time
 
-## Rule 3: You have to put on the condom yourself.
+## Rule 3: You have to put on your own hard hat.
 
 -   Can't rely on companies to protect us
     -   As recently as ten years ago we could blame the lack of legal liability for data breaches on the law being slow to catch up
@@ -64,17 +68,28 @@ FIXME
     -   Many IT departments send out instructions that are indistinguishable from spearphishing attacks
     -   Which just trains people to be victims
 
+> **LH comments:**
+> This kinda comes back to the "design systems so it's safe to use them."
+> Telling people not to open things won't work because they need to get their jobs done.
+> Instead we should make it so that it's safe to open,
+> e.g., how Google sanitizes emailed PDFs and office docs in their viewer.
+>
+> **GVW responds:**
+> I agree, but what do we tell people to do _now_ with their insecure-by-design systems?
+
 ## Rule 5: Use a password manager.
 
 -   Using a weak password is a good way to ensure that you're eventually going to have a bad day
     -   Offline dictionary attacks
 -   Reusing passwords ensures that bad news spreads
+    -   Using a different password for each site helps limit damage if (or when) some are compromised
+    -   Your house key isn't also your car key…
 -   But strong passwords are hard to remember and to type
     -   Prompts can often be harvested from social media profiles
 -   Use a password manager
     -   Generates strong passwords
     -   Saves them all under a master pass phrase
-    -   Creates a single point of attack
+    -   But creates a single point of attack
 -   Writing passwords down and keeping them in your wallet is useful:
     at least you'll know if your written passwords go missing or get stolen
 
@@ -100,11 +115,14 @@ FIXME
     -   Laws guaranteeing free speech don't actually require them to give a platform to hate speech
 -   They have been forced to give users at least a little control over personal data,
     but frequently change their terms of service in opaque ways
+-   "Authorized apps" are often the worst offenders
+    -   And that's not even counting the ones that turn out to be
+        [government-sponsored spyware](https://www.schneier.com/blog/archives/2019/12/totok_is_an_emi.html)
 -   Go through settings periodically and turn off almost everything
     -   As tedious and as necessary as cleaning leaves out of your gutters
 -   Have a travel phone for crossing the border.
 
-## Rule 9: Use Tor.
+## Rule 9: Know when to use Tor or a VPN.
 
 -   FIXME: explain how Tor works.
 -   Describe similar applications.
@@ -113,7 +131,9 @@ FIXME
 
 -   Reporters and private investigators go dumpster diving regularly
 -   Assume that any account you shut down or any device you throw away is going to fall into unfriendly hands
--   So erase data
+-   So destroy devices if you can
+    -   Many cities have electronics recycling shops, though that's someone else you now need to trust
+-   And erase data if you can't destroy devices
     -   Practically impossible with social networking sites (though it should be required by law)
 -   Moving files into the trash and then emptying it does *not* actually erase the data
     -   Just tells the computer that the space is available for re-use
@@ -139,11 +159,16 @@ FIXME
 
 -   Electronic Frontier Foundation:
     "[Surveillance Self-Defense](https://ssd.eff.org/): Tips, Tools and How-tos for Safer Online Communications"
-    https://ssd.eff.org, accessed November 2019.
+    <https://ssd.eff.org>, accessed November 2019.
 
 -   Barbara Filkins, Ju Young Kim, Bruce L. Roberts, Winston Armstrong, Mark A. Miller, Michael L Hultner, Anthony P Castillo, Jean-Christophe Ducom, Eric J. Topol, and Steven R. Steinhubl:
     "Privacy and security in the era of digital health: what should translational researchers know and do about it?"
     *American journal of translational research*, 8(3), 2016.
+
+-   Leigh Honeywell:
+    "Staying Safe When You Say #MeToo"
+    <https://www.aclu.org/blog/privacy-technology/internet-privacy/staying-safe-when-you-say-metoo>,
+    accessed January 2020.
 
 -   Bruce Schneier:
     *Data and Goliath: The Hidden Battles to Collect Your Data and Control Your World*
@@ -156,3 +181,7 @@ FIXME
 -   Brian Stanton, Mary F. Theofanos, Sandra Spickard Prettyman, and Susanne Furman:
     "[Security Fatigue](https://doi.org/10.1109/mitp.2016.84)"
     *IT Professional*, 18(5), Sep 2016, doi:10.1109/mitp.2016.84.
+
+-   Alma Whitten and J.D. Tygar:
+    "Why Johnny Can’t Encrypt: A Usability Evaluation of PGP 5.0"
+    *Proc. 8th Conference on USENIX Security Symposium*, 1999.
