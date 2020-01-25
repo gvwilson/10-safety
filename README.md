@@ -23,7 +23,7 @@ FIXME
     -   Their relationship had become increasingly abusive over the last two years
     -   With the help of friends, Elena has moved out of their shared apartment and is rebuilding her life
     -   Eric is obsessed with the idea that she left him for someone else and is now stalking her
-    -   An *intimate threat* who may know passwords and may have installed spyware on devices
+    -   An *intimate threat* who may know passwords and may have installed spyware on devices (Leit2019)
 -   **Boris** (professor of medicine) vs. **Bethany** (university IT staff)
     -   Boris has agreed to serve as an expert witness for a large chemical company in an upcoming liability trial
     -   Bethany has been asked by friends to find out what he is going to say in order to discredit his testimony
