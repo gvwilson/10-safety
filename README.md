@@ -196,65 +196,54 @@
 Amro2018:
 :   Belal M. Amro, Mohanad O. Al-Jabari, Hussein M. Jabareen, Yousef S. Khader, and Adel Taweel:
     "[Design and Development of Case Studies in Security and Privacy for Health Informatics Education](https://doi.org/10.1109/aiccsa.2018.8612876)".
-    In *2018 IEEE/ACS 15th International Conference on Computer Systems and Applications (AICCSA)*, Oct 2018, doi:10.1109/aiccsa.2018.8612876.
-    *FIXME*
+    In *2018 Conference on Computer Systems and Applications*, Oct 2018, doi:10.1109/aiccsa.2018.8612876.
 
 Blue2015:
 :   Violet Blue:
     *The Smart Girl's Guide to Privacy: Practical Tips for Staying Safe Online*.
     No Starch Press, 2015, 978-1593276485.
-    *Practical tips from someone on the front lines.*
 
 Cove2018:
 :   Lynne Coventry and Dawn Branley:
     "[Cybersecurity in healthcare: A narrative review of trends,  threats and ways forward](https://doi.org/10.1016/j.maturitas.2018.04.008)".
     *Maturitas*, 113, Jul 2018, doi:10.1016/j.maturitas.2018.04.008.
-    *FIXME*
 
 EFF:
 :   Electronic Frontier Foundation:
     "Surveillance Self-Defense: Tips, Tools and How-Tos for Safer Online Communications".
     <https://ssd.eff.org/>, Viewed 2020-01-25.
-    *FIXME*
 
 Filk2016:
 :   Barbara Filkins, Ju Young Kim, Bruce L. Roberts, Winston Armstrong, Mark A. Miller, Michael L Hultner, Anthony P Castillo, Jean-Christophe Ducom, Eric J. Topol, and Steven R. Steinhubl:
     "Privacy and security in the era of digital health: what should translational researchers know and do about it?".
-    *American journal of translational research*, 8(3), 2016.
-    *FIXME*
+    *American Journal of Translational Research*, 8(3), 2016.
 
 FLD:
 :   Front Line Defenders:
     "Digital Security Resources".
     <https://www.frontlinedefenders.org/en/digital-security-resources>, Viewed 2020-01-25.
-    *FIXME*
 
 Leit2019:
 :   Roxanne Leitão:
     "[Technology-Facilitated Intimate Partner Abuse: a qualitative analysis of data from online domestic abuse forums](https://doi.org/10.1080/07370024.2019.1685883)".
     *Human–Computer Interaction*, 12 2019, doi:10.1080/07370024.2019.1685883.
-    *Reports a qualitative analysis of data gathered from three online discussion forums for victims and survivors of domestic abuse covering three main themes: forms of technology-facilitated abuse being discussed on the forums, the ways in which forum members are using technology within the context of intimate partner abuse, and the digital privacy and security advice being exchanged between victims/survivors on the forums.*
 
 Natu2010:
 :   Editorial:
     "[Closing the Climategate](https://doi.org/10.1038/468345a)".
     *Nature*, 468(7322), 11 2010, doi:10.1038/468345a.
-    *FIXME*
 
 Schn2019:
 :   Bruce Schneier:
     "ToTok Is an Emirati Spying Tool".
     <https://www.schneier.com/blog/archives/2019/12/totok_is_an_emi.html>, Viewed 2020-01-25.
-    *FIXME*
 
 Snow2019:
 :   Edward Snowden:
     *Permanent Record*.
     Metropolitan Books, 2019, 978-1250237231.
-    *FIXME*
 
 Stan2016:
 :   Brian Stanton, Mary F. Theofanos, Sandra Spickard Prettyman, and Susanne Furman:
     "[Security Fatigue](https://doi.org/10.1109/mitp.2016.84)".
     *IT Professional*, 18(5), Sep 2016, doi:10.1109/mitp.2016.84.
-    *Describes the all-too-common phenomenon of people giving up because security takes too much effort.*
