@@ -200,7 +200,7 @@ Amro2018:
     *FIXME*
 
 Blue2015:
-:   Violet Blue: 
+:   Violet Blue:
     *The Smart Girl's Guide to Privacy: Practical Tips for Staying Safe Online*.
     No Starch Press, 2015, 978-1593276485.
     *Practical tips from someone on the front lines.*
@@ -248,7 +248,7 @@ Schn2019:
     *FIXME*
 
 Snow2019:
-:   Edward Snowden: 
+:   Edward Snowden:
     *Permanent Record*.
     Metropolitan Books, 2019, 978-1250237231.
     *FIXME*
