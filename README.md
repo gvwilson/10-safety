@@ -49,7 +49,7 @@
 -   **Social engineering** is far more common than hacking
     -   E.g., trick someone into giving you their password so you don't have to break in digitally
 
-## Rule 3: You have to put on your own hard hat.
+## Rule 3: Put on your own hard hat.
 
 -   Can't rely on companies to protect us
     -   As recently as ten years ago we could blame the lack of legal liability for data breaches on the law being slow to catch up
@@ -62,11 +62,12 @@
 ## Rule 4: Think before opening.
 
 -   Documents can contain code that automatically executes when the document is opened
-    -   Microsoft Word is particularly notorious for this
+    -   Microsoft Office is particularly notorious for this
 -   Most websites run code in your browser
 -   Attempts to get you to open email attachments, click on a link, install software, or log in are called **phishing** attacks
 -   Do not open email attachments without first running them through a virus scanner
     -   Even if you trust the person who sent it, because their computer might just have been compromised
+    -   You'll often have to break this rule in the real world because you have to get your job done
 -   When opening a web site, check the real domain name in the URL
     -   Even this is tricky: `wwwpaypal.com` is a different domain than `www.paypal.com`
     -   `paypaI.com` (with an upper-case 'I' instead of a lower-case 'l') is different again
@@ -76,15 +77,6 @@
 -   And verify instructions as well (e.g., password reset instructions from IT departments)
     -   Many IT departments send out instructions that are indistinguishable from spearphishing attacks
     -   Which just trains people to be victims
-
-> **LH comments:**
-> This kinda comes back to the "design systems so it's safe to use them."
-> Telling people not to open things won't work because they need to get their jobs done.
-> Instead we should make it so that it's safe to open,
-> e.g., how Google sanitizes emailed PDFs and office docs in their viewer.
->
-> **GVW responds:**
-> I agree, but what do we tell people to do _now_ with their insecure-by-design systems?
 
 ## Rule 5: Use a password manager.
 
@@ -140,18 +132,7 @@
 -   Go through settings periodically and turn off almost everything
     -   As tedious and as necessary as cleaning leaves out of your gutters
 
-## Rule 9: Use Tor and/or a VPN, but know their limits.
-
--   A **Virtual Private Network (VPN)** connects your device to a server, then has the server make connections to other machines on your behalf
-    -   All messages between your device and the server are encrypted
-    -   And the server can be managed by professional IT staff, in a jurisdiction with tight privacy laws, etc.
--   Tor routes messages randomly through a network of servers, making traffic much harder to track
--   Both reduce risk but neither eliminates it
-    -   If your device has been compromised
-    -   If the VPN is compromised (or subpoenaed)
-    -   If you log in to accounts over Tor (revealing your identity to those sites, which may then be compromised)
-
-## Rule 10: Erase before discarding.
+## Rule 9: Erase before discarding.
 
 -   Moving files into the trash and then emptying it does *not* actually erase the data
     -   Just tells the computer that the space is available for re-use
@@ -168,12 +149,29 @@
 -   Use a secure deletion tool (e.g., BleachBit on Linux or Windows)
 -   But none of this affects backups or files stored online (e.g., Dropbox)
 
+## Rule 10: It's not all about you.
+
+-   Keep others safe by putting passwords on PDFs you're sending that contains sensitive information
+    -   Sending tax receipts as attachments that anyone could open is just inviting trouble
+-   If you are compromised, let those affected know
+
 ## Conclusion
+
+-   We haven't included VPNs or Tor
+    -   A **Virtual Private Network (VPN)** connects your device to a server,
+        then has the server make connections to other machines on your behalf
+    -   All messages between your device and the server are encrypted
+    -   And the server can be managed by professional IT staff, in a jurisdiction with tight privacy laws, etc.
+-   Tor routes messages randomly through a network of servers, making traffic much harder to track
+-   Both reduce risk but neither eliminates it
+    -   If your device has been compromised
+    -   If the VPN is compromised (or subpoenaed)
+    -   If you log in to accounts over Tor (revealing your identity to those sites, which may then be compromised)
 
 -   You *can* be safer
 -   And if you want to be even safer, ask politicians about strengthening liability legislation
     -   Driving is safe in part because drivers and car manufacturers are legally liable
--   Thank to Sydney Young (EFF) for their feedback
+-   Thank to Claire Bowen (Urban Institute), Mike Hoye (Mozilla), Scott Jackson (RStudio), and Sydney Young (EFF) for their feedback
 
 ## Glossary
 
