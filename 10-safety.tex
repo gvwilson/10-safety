@@ -54,57 +54,20 @@ Weekly reports of data breaches have minimal impact on profitability and no indi
 Much of what institutions force us to go through online is \textbf{security theater}
 intended to make us believe something is being done
 rather than to actually make us safer.
-It is counter-productive because it encourages us to cut corners
+Requiring people to take off their shoes at airports is perhaps the best-known example;
+random searches of backpacks and bags at the entrance to the subway is another,
+since it's hard to imagine that a would-be attacker \emph{wouldn't} just to another entrance.
+
+Security theater is counter-productive because it encourages us to cut corners
 in ways that actually make us \emph{less} safe.
 For example,
 forcing people to change passwords every three months
 encourages people to choose memorable (and therefore easy-to-guess) passwords.
 
-\rulemajor{Rule 2: Use realistic threat models.}
+\rulemajor{Rule 2: Digital security is rarely the weakest link.}
 
-Edward Snowden and the journalists who worked with him took extraordinary measures
-to safeguard themselves against \textbf{state-level actors} \cite{Snow2019},
-but most of us aren't involved in issues of national security.
-Instead,
-we typically face one of three kinds of threat illustrated by the examples below.
-
-\begin{itemize}
-
-\item
-  \textbf{Casual threats} are opportunistic.
-  For example,
-  Monica, a professor in psychology, is targeted by Mohan,
-  an undergraduate in computer science
-  who spends hours every day in online echo chambers complaining about how ``SJW bullshit'' is ruining tech.
-  He really didn't enjoy Monica's guest lecture on discrimination and inclusivity in his software engineering class,
-  and thinks it would be a laugh to make her the target of anonymous abuse online.
-  He is unlikely to invest significant effort in his attack (at least not initially),
-  but his attack may be backed up by more knowledgeable advisors in online forums.
-
-\item
-  \textbf{Intimate threats} come from people who know their targets' passwords
-  or have a chance to install spyware on their targets' devices \cite{Leit2019}.
-  For example,
-  Elena, graduate student,
-  is targeted by her romantic partner Eric,
-  who is also a graduate student but not in the same department.
-  Their relationship had become increasingly abusive over the last two years.
-  With the help of friends,
-  Elena has moved out of their shared apartment and is rebuilding her life;
-  Eric is obsessed with the idea that she left him for someone else and is now stalking her.
-
-\item
-  \textbf{Insider threats} come from people who have legitimate access to accounts and devices.
-  For example,
-  Boris, professor of medicine,
-  is targeted by Bethany, who works for the university's IT department.
-  Boris has agreed to serve as an expert witness in an upcoming liability case involving a large chemical company;
-  Bethany has been asked by a former colleague to find out what he is going to say in order to discredit his testimony.
-
-\end{itemize}
-
-\rulemajor{Rule 3: Digital security is rarely the weakest link.}
-
+The second rule is to remember that most attacks take place offline,
+and that the most effective ones are often the simplest.
 At an airport several years ago,
 the author heard a professor of computer science try to re-set an online account over the phone.
 In just a couple of minutes,
@@ -145,7 +108,104 @@ and quickly leads to \textbf{security fatigue} \cite{Stan2016}.
 If you are too tired to follow good practices,
 knowing them does you no good.
 
-\rulemajor{Rule 4: Think before opening.}
+\rulemajor{Rule 3: Use relevant threat models.}
+
+Edward Snowden and the journalists who worked with him took extraordinary measures
+to safeguard themselves against \textbf{state-level actors} \cite{Snow2019},
+but most of us aren't involved in issues of national security
+and don't need to take those kinds of precautions.
+Instead,
+we typically face one of three kinds of threat illustrated by the examples below.
+
+\begin{itemize}
+
+\item
+  \textbf{Casual threats} are opportunistic.
+  For example,
+  Monica, a professor in psychology, is targeted by Mohan,
+  an undergraduate in computer science
+  who spends hours every day in online echo chambers complaining about how ``SJW bullshit'' is ruining tech.
+  He really didn't enjoy Monica's guest lecture on discrimination and inclusivity in his software engineering class,
+  and thinks it would be a laugh to make her the target of anonymous abuse online.
+  He is unlikely to invest significant effort in his attack (at least not initially),
+  but his attack may be backed up by more knowledgeable advisors in online forums.
+
+\item
+  \textbf{Intimate threats} come from people who know their targets' passwords
+  or have a chance to install spyware on their targets' devices \cite{Leit2019}.
+  For example,
+  Elena, graduate student,
+  is targeted by her romantic partner Eric,
+  who is also a graduate student but not in the same department.
+  Their relationship had become increasingly abusive over the last two years.
+  With the help of friends,
+  Elena has moved out of their shared apartment and is rebuilding her life;
+  Eric is obsessed with the idea that she left him for someone else and is now stalking her.
+
+\item
+  \textbf{Insider threats} come from people who have legitimate access to accounts and devices.
+  For example,
+  Boris, professor of medicine,
+  is targeted by Bethany, who works for the university's IT department.
+  Boris has agreed to serve as an expert witness in an upcoming liability case involving a large chemical company;
+  Bethany has been asked by a former colleague to find out what he is going to say in order to discredit his testimony.
+
+\end{itemize}
+
+\rulemajor{Rule 4: Use a password manager.}
+
+Using a weak password is a good way to ensure that your account will eventually be compromised,
+in part because \textbf{dictionary attacks} can be run offline against encrypted password files
+to find passwords that match common patterns.
+Using a clever password scheme,
+such as the name of the site plus a word only you know,
+does not increase security by much:
+whatever scheme you have thought of,
+attackers have seen before.
+And since people are often identified on multiple sites by the same email address,
+as soon as one site where you've used that scheme is compromised,
+attackers can guess the scheme and use it elsewhere.
+
+Reusing passwords ensures that damage spreads,
+so using a different password for each site helps limit harm if any are compromised.
+However,
+strong passwords are hard to remember and to type,
+so always use a \textbf{password manager}
+that generates strong passwords
+and saves them all under a master \textbf{passphrase}.
+Your passphrase should be several words long
+and something you are unlikely to forget.
+It does create a single point of attack,
+but is still safer than choosing passwords yourself,
+password managers aren't fooled by similar-seeming sites like \texttt{paypaI.com}.
+
+And despite what you may have heard,
+writing passwords down and keeping them in your wallet is not a bad practice:
+you have been keeping bits of paper safe since you were a child,
+and you'll know if your written passwords go missing or are stolen.
+
+\rulemajor{Rule 5: Use two-factor authentication.}
+
+Authentication relies on something you \emph{know} (like a password),
+something you \emph{have} (like a security key),
+or something you \emph{are} (like your fingerprints).
+\textbf{Two-factor authentication} requires two of these together to establish your identity,
+e.g.,
+a password (which can be stolen electronically)
+plus a random code generated by an app on your phone
+(which means attackers need access to you).
+
+2FA is as important to security as using a password manager,
+but where possible,
+you should rely on an app for 2FA instead of using text messages.
+What you should \emph{never} do is share a confirmation code,
+since a common attack is to trigger a password reset
+and then call the victim pretending to be from the IT department
+and ask them to read the code back to ``verify'' your account.
+As soon as you do this,
+the attacker can change your password and get into your account.
+
+\rulemajor{Rule 6: Think before opening.}
 
 Much of the software we use was designed in more innocent times,
 and since companies are almost never held liable for the damage caused by their software,
@@ -208,108 +268,7 @@ things like password reset instructions.
 Many IT departments send out messages that are indistinguishable from spearphishing attacks,
 which just trains people to be victims.
 
-\rulemajor{Rule 5: Use a password manager.}
-
-Using a weak password is a good way to ensure that your account will eventually be compromised,
-in part because \textbf{dictionary attacks} can be run offline against encrypted password files
-to find passwords that match common patterns.
-Using a clever password scheme,
-such as the name of the site plus a word only you know,
-does not increase security by much:
-whatever scheme you have thought of,
-attackers have seen before.
-And since people are often identified on multiple sites by the same email address,
-as soon as one site where you've used that scheme is compromised,
-attackers can guess the scheme and use it elsewhere.
-
-Reusing passwords ensures that damage spreads,
-so using a different password for each site helps limit harm if any are compromised.
-However,
-strong passwords are hard to remember and to type,
-so always use a \textbf{password manager}
-that generates strong passwords
-and saves them all under a master \textbf{passphrase}.
-Your passphrase should be several words long
-and something you are unlikely to forget.
-It does create a single point of attack,
-but is still safer than choosing passwords yourself,
-password managers aren't fooled by similar-seeming sites like \texttt{paypaI.com}.
-
-And despite what you may have heard,
-writing passwords down and keeping them in your wallet is not a bad practice:
-you have been keeping bits of paper safe since you were a child,
-and you'll know if your written passwords go missing or are stolen.
-
-\rulemajor{Rule 6: Use two-factor authentication.}
-
-Authentication relies on something you \emph{know} (like a password),
-something you \emph{have} (like a security key),
-or something you \emph{are} (like your fingerprints).
-\textbf{Two-factor authentication} requires two of these together to establish your identity,
-e.g.,
-a password (which can be stolen electronically)
-plus a random code generated by an app on your phone
-(which means attackers need access to you).
-
-2FA is as important to security as using a password manager,
-but where possible,
-you should rely on an app for 2FA instead of using text messages.
-What you should \emph{never} do is share a confirmation code,
-since a common attack is to trigger a password reset
-and then call the victim pretending to be from the IT department
-and ask them to read the code back to ``verify'' your account.
-As soon as you do this,
-the attacker can change your password and get into your account.
-
-\rulemajor{Rule 7: Check your devices and accounts periodically.}
-
-App-based vs. texting-based 2FA is an example of a Red Queen race:
-both sides are constantly evolving in response to the other's evolution.
-You should therefore check your devices periodically,
-just as you would take your car in for an oil change.
-(In fact,
-the author does these things at the same time in order to remember both.)
-
-Many experts recommend using separate devices or accounts for work and personal,
-but this is increasingly unrealistic.
-Everyone checks their personal email from their work device eventually,
-and everyone uses their personal phone for 2FA.
-However,
-you should consider getting a second phone for international travel:
-the legalities around who can take your devices
-and/or force you to unlock them are complicated and frequently overstepped,
-so you should assume that anything on or connected to the devices you are traveling with
-will be compromised.
-
-\begin{quote}
-  \emph{Never} plug a random USB drive into your device:
-  it's like letting a complete stranger into your home unsupervised.
-\end{quote}
-
-Google, Facebook, and others make money selling targeted advertising to you and data about you.
-They have been forced to give users a semblance of control over personal data,
-but they frequently change their terms of service in opaque ways.
-Seemingly-innocuous information can give attackers valuable clues:
-restaurant ``likes'' reveal where you were at specific times,
-while funny stories about childhood birthday parties reveal likely answers to security questions.
-Take advantage of what little protection they have been forced to allow you;
-again,
-if you get into the habit of doing this every time you do some other regular task,
-you're more likely to do both.
-Unfortunately,
-even if you do this,
-information may leak through others.
-For example,
-attackers can friend your friends in an attempt to get information about you,
-such as the name of your first school.
-
-As bad as major social media sites are,
-cell phone applications are often worse
-(and that's not even counting the ones that turn out to be government-sponsored spyware \cite{Schn2019}).
-If a game wants access to your camera and address book,
-you should probably find a different game to play.
-
-\rulemajor{Rule 8: Erase before discarding.}
+\rulemajor{Rule 7: Erase before discarding.}
 
 Moving files into the trash and then emptying it does not actually erase the data:
 it just tells the computer that the space is available for re-use.
@@ -327,6 +286,55 @@ And keep in mind that it is practically impossible to truly delete data from soc
 in most cases,
 their ``delete'' usually means ``don't show any more''
 rather than ``erase all past record of''.
+
+\rulemajor{Rule 8: Check your devices and accounts periodically.}
+
+Google, Facebook, and others make money selling targeted advertising to you and data about you.
+They have been forced to give users a semblance of control over personal data,
+but they frequently change their terms of service in opaque ways.
+Seemingly-innocuous information can give attackers valuable clues:
+restaurant ``likes'' reveal where you were at specific times,
+while funny stories about childhood birthday parties reveal likely answers to security questions.
+Take advantage of what little protection they have been forced to allow you;
+again,
+if you get into the habit of doing this every time you do some other regular task,
+you're more likely to do both.
+
+Unfortunately,
+even if you do this,
+information may leak through others.
+For example,
+attackers can friend your friends in an attempt to get information about you,
+such as the name of your first school.
+And as bad as major social media sites are,
+cell phone applications are often worse
+(not even counting the ones that turn out to be government-sponsored spyware \cite{Schn2019}).
+If a game wants access to your camera and address book,
+you should probably find a different game to play.
+
+Since social media is a fact of life for most of us,
+you should check your settings periodically,
+just as you would take your car in for an oil change.
+(In fact,
+the author does these things at the same time in order to remember both.)
+Turn off everything you can
+and then use a tracking blocker such as Ghostery to reduce information leakage.
+
+Many experts recommend using separate devices or accounts for work and personal life,
+but this is increasingly unrealistic.
+Everyone checks their personal email from their work device eventually,
+and everyone uses their personal phone for 2FA.
+However,
+you should consider getting a second phone for international travel:
+the legalities around who can take your devices
+and/or force you to unlock them are complicated and frequently overstepped,
+so you should assume that anything on or connected to the devices you are traveling with
+will be compromised.
+
+\begin{quote}
+  \emph{Never} plug a random USB drive into your device:
+  it's like letting a complete stranger into your home unsupervised.
+\end{quote}
 
 \rulemajor{Rule 9: Fight back.}
 
@@ -375,14 +383,18 @@ If you have been attacked:
 
 \rulemajor{Rule 10: It's not all about you.}
 
-Our final rule is as important as our first one.
-If you do not take precautions,
-you are putting others at risk,
-so take a few simple steps like putting passwords on PDFs that contain sensitive information.
-And if you are compromised,
+Our final rule brings us full circle to the first one.
+We don't just wear masks to prevent ourselves from becoming infected:
+we also wear them so that we will not infect others.
+Similarly,
+if you do not take precautions with online security then you are putting others at risk.
+Simple steps like putting passwords on PDFs that contain sensitive information
+can go a long way to deter attackers,
+in the same way that a sturdy-looking bike lock encourages would-be thieves to go after some other bike.
+And if you \emph{are} compromised,
 let those affected know as soon as you can.
 
-The only long-term way to improve everyone's online safety
+But the only long-term way to improve everyone's online safety
 is to pressure politicians to strengthen liability legislation
 so that companies, universities, and other institutions have real incentives to take meaningful action.
 Cars and drugs are as safe as they are because their manufacturers are liable for negligence and harm.
