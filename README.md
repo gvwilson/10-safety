@@ -1,299 +1,379 @@
 # Ten Simple Rules for Staying Safe Online
 
--   [Greg Wilson](http://third-bit.com)
+[Greg Wilson](http://third-bit.com)
 
 ## Introduction
 
--   Institutions have a lot of rules and guidelines for safeguarding sensitive information
-    -   But they're not about *individuals* staying safe
-    -   And mostly don't address targeted harassment (e.g., Climategate @Natu2010)
--   Hollywood depictions of everyday threats are as far from reality as their portrayals of scientists
--   A lot of guidance now available for personal digital security (@FLD, @EFJ2015, @EFF)
--   The 10 simple rules in this paper apply to everyone, but are particularly relevant to researchers
--   Can't guarantee complete safety
-    -   Realistic goals are risk management (safe driving means fewer accident)
-        and harm reduction (seatbelts mean less injury when accidents happen)
-    -   A bike lock can't stop a determined thief, but it will encourage them to look for an easier target
--   Equally important is avoiding **security fatigue** @Stan2016
+Researchers studying everything from sexual health to COVID-19 to gun violence
+are increasingly likely to be targeted because of their work.  While research
+institutions have rules and guidelines for safeguarding sensitive information,
+these usually do not address the problem of keeping *individuals* safe from
+either targeted attacks (e.g., Climategate [[Natu2010](#Natu2010)]) or the kinds
+of "drive-by" threats that everyone now faces regardless of their occupation.
 
-## Rule 1: Put on your own COVID mask.
+Hollywood depictions of everyday threats are as far from reality as their
+portrayals of scientists, but more realistic guidance for personal digital
+security is now freely available [[FLD](#FLD),[EFJ2015](#EFJ2015),[EFF](#EFF)].
+The ten quick tips in this paper are a starting point: while they apply to
+everyone, they are particularly relevant to researchers. They do not guarantee
+complete safety, any more than seatbelts guarantee safe driving, but following
+them greatly reduces the likelihood of harm.
 
--   Can't rely on companies to protect us
-    -   As recently as ten years ago we could blame the lack of legal liability for data breaches on the law being slow to catch up
-    -   Today, it's clear that the law hasn't caught up because large tech companies don't want it to
-    -   Weekly reports of data breaches have minimal impact on profitability and no individual ever goes to jail
--   Much of what companies force us to go through online is actually counter-productive **security theater**
-    -   Intended to make us believe something is being done rather than to actually make us safer
-    -   Counter-productive because it encourages us to cut corners in ways that actually make us *less* safe
-    -   E.g., forcing people to change passwords every 3 months encourages poor password choice (and writing them down)
-    -   Relatively easy to find someone's date of birth or the name of their first pet online (e.g., Facebook)
+## Rule 1: Put on your own mask.
 
-## Rule 2: Use realistic threat models.
+The first and most important rule is that we should not rely on companies,
+universities, and other institutions to protect us, for the simple reason that
+they are not penalized if they don't. As recently as ten years ago we could
+blame the lack of meaningful institutional liability for data breaches on the
+law being slow to catch up with rapidly-changing technology. Today, it's clear
+that the law hasn't caught up because large tech companies don't want it
+to. Weekly reports of data breaches have minimal impact on profitability and no
+individual ever goes to jail
 
--   Snowden and the journalists who worked with him took extraordinary measures
-    to safeguard themselves against **state-level actors** @Snow2019
-    -   But most of us aren't involved in issues of national security
--   **Situational awareness** is a fancy way of saying "pay attention to what's happening and respond accordingly"
-    -   You shouldn't be afraid to go into a darkened room at night, but you should be cautious
-    -   Similarly, if you notice unusual activity or if you start working on something that may attract unwanted attention,
-        take more precautions than usual
-    -   And de-escalate when you can: being on guard all the time is exhausting
--   A **casual threat**
-    -   Monica (professor in psychology) is targeted by Mohan (undergraduate in computer science)
-    -   Mohan spends hours every day in online echo chambers complaining about how "SJW bullshit" is ruining tech
-    -   Really didn't enjoy Monica's guest lecture on discrimination and inclusivity in his software engineering class
-    -   Thinks it would be a laugh to make the target of anonymous abuse online
-    -   Attack may be backed up by more knowledgeable advisors in online forums
--   An **intimate threat** who may know passwords and may have installed spyware on devices (@Leit2019)
-    -   Elena (graduate student) targeted by her romantic partner Eric (also a graduate student but not in the same department)
-    -   Their relationship had become increasingly abusive over the last two years
-    -   With the help of friends, Elena has moved out of their shared apartment and is rebuilding her life
-    -   Eric is obsessed with the idea that she left him for someone else and is now stalking her
--   An **insider threat** who may have legitimate access to accounts and devices
-    -   Boris (professor of medicine) targeted by Bethany (university IT staff)
-    -   Boris has agreed to serve as an expert witness for a large chemical company in an upcoming liability trial
-        -   Should recognize that he's more likely to be a target and take heightened precautions for a while
-    -   Bethany has been asked by friends to find out what he is going to say in order to discredit his testimony
+Much of what institutions force us to go through online is **security theater**
+intended to make us believe something is being done rather than to actually make
+us safer. Requiring people to take off their shoes at airports is perhaps the
+best-known example; random searches of backpacks and bags at the entrance to the
+subway is another, since it's hard to imagine that a would-be attacker
+*wouldn't* just to another entrance.
 
-## Rule 3: Digital security is rarely the weakest link.
+Security theater is counter-productive because it encourages us to cut corners
+in ways that actually make us *less* safe. For example, forcing people to change
+passwords every three months encourages people to choose memorable (and
+therefore easy-to-guess) passwords.
 
--   At an airport several years ago, heard a professor of computer science try to re-set an online account over the phone
-    -   Full name, address, date of birth, and what was almost certainly their mother's maiden name...
-    -   ...all loudly enough to be heard by two dozen people
-    -   Lacked good habits
--   On that same trip, a stranger (also a computer science professor) asked me to watch their laptop while they went to the washroom
-    -   They were logged in to several online accounts at the time
-    -   Lacked situational awareness
--   Moral of the stories is that safety comes from good habits, not technology
--   Technology should make security the easy default (people should need to know which links to click)
-    -   But a lot of what we use was designed in a more innocent time
-    -   Things haven't gotten better in the last 20 years
--   **Social engineering** is far more common than hacking
-    -   E.g., trick someone into giving you their password so you don't have to break in digitally
--   Often capitalizes on people's desire to be helpful
-    -   See discussion of MFA in Rule 6
+## Rule 2: Digital security is rarely the weakest link.
 
-## Rule 4: Think before opening.
+The second rule is to remember that most attacks take place offline, and that
+the most effective ones are often the simplest. At an airport several years ago,
+the author heard a professor of computer science try to re-set an online account
+over the phone. In just a couple of minutes, they had inadvertently told
+everyone in the lounge their full name, their date of birth, the three-digit
+verification code on the back of their credit card, and what was almost
+certainly their mother's maiden name.
 
--   Documents can contain code that automatically executes when the document is opened
-    -   Microsoft Word and Excel is particularly notorious for this
-    -   Nested attachments: scanners don't look for a macro in an spreadsheet in a ZIP file in an attachment
--   Most websites run code in your browser
--   Attempts to get you to open email attachments, click on a link, install software, or log in are called **phishing** attacks
--   Do not open email attachments without first running them through a virus scanner
-    -   Even if you trust the person who sent it, because their computer might just have been compromised
-    -   **Nested attachments** (e.g., Word documents inside Zip files) are particularly difficult for scanners to handle
--   Using Google Docs means you don't have to download...
-    -   ...but now you're giving all of your data to a company whose business model is
-        to sell your personal information to unaccountable third parties
--   Don't click links in emails without checking them first
-    -   Hover over and see if it matches the site it claims to be
-    -   Log into the site yourself rather than following the provided link
-    -   Takes more time, but less than fixing your credit rating
--   When opening a web site, check the real domain name in the URL
-    -   Even this is tricky: `wwwpaypal.com` is a different domain than `www.paypal.com`
-    -   `paypaI.com` (with an upper-case 'I' instead of a lower-case 'l') is different again
--   **Spearphishing** (targeted attacks using data harvested from other victims) are even more tempting
--   Verify suspicious emails (e.g., call people)
--   Verify instructions as well (e.g., password reset instructions from IT departments)
-    -   Many IT departments send out instructions that are indistinguishable from spearphishing attacks
-    -   Which just trains people to be victims
+On that same trip, a complete stranger (also a computer science professor) asked
+the author to watch their laptop while they went to the washroom. They were
+logged in to several online accounts at the time, and even if they weren't, the
+passwords saved in their browser could have been viewed with just a few mouse
+clicks.
 
-## Rule 5: Use a password manager.
+The moral of these stories is that safety comes from good habits, not
+technology. **Social engineering** is far more common than hacking: in practice
+it is far easier to trick someone into giving you their password than to break
+into their devices digitally.
 
--   Using a weak password is a good way to ensure that your account will eventually be compromised
-    -   **Dictionary attacks** can be run offline against downloads of encrypted password files
--   Using a clever password scheme (e.g., name of the site plus a word only you know) doesn't delay it by much
-    -   Whatever scheme you have thought of, attackers have seen it before
-    -   And since people are often identified on multiple sites by the same email address,
-        as soon as one site where you've used that scheme is compromised,
-        attackers can guess the scheme and use it elsewhere
--   If there are two examples of a pattern, I can reverse engineer the pattern
-    -   And patterns can be used to tie people together
--   Reusing passwords ensures that bad news spreads
-    -   Using a different password for each site helps limit damage if (or when) some are compromised
-    -   Your house key isn't also your car key...
--   But strong passwords are hard to remember and to type
-    -   Prompts can often be harvested from social media profiles
--   Use a **password manager**
-    -   Generates strong passwords
-    -   Saves them all under a master **passphrase**
-        -   Should be several words long and unlikely for you to forget
-    -   Does create a single point of attack, but still safer than choosing passwords yourself.
--   Going back to `paypaI.com`, password managers keep track of sites and aren't fooled by similar-seeming letters
--   Writing passwords down and keeping them in your wallet is useful
-    -   You have been keeping bits of paper safe since you were a child
-    -   At least you'll know if your written passwords go missing or get stolen
+The key practice is **situational awareness**, which is a fancy way of saying,
+"Pay attention to what's happening and respond accordingly." You shouldn't
+always be afraid to walk after dark, but you should use good judgment about
+where not to go. Similarly, if you notice unusual activity or if you start
+working on something that may attract unwanted attention, you should take more
+precautions than usual. For example, Boris should recognize that agreeing to be
+an expert witness increases the odds that he will be targeted, and should be
+more careful about what he puts into email while preparing and delivering his
+testimony.
 
-## Rule 6: Use two-factor authentication.
+The corollary to situational awareness is to de-escalate when you can.  Being on
+guard all the time is exhausting and quickly leads to **security fatigue**
+[[Stan2016](#Stan2016)]. If you are too tired to follow good practices, knowing
+them does you no good.
 
--   Authentication relies on something you *know*, something you *have*, or something you *are*
--   **Two-factor authentication** requires two of these together
-    -   E.g., a password plus a random code generated by a hardware device (or an app on your phone)
-    -   Attackers need access to you
--   Random URLs via email do this as well: you *have* access to the email address
-    -   But anyone who gains access to your email can then trigger a password reset cycle and steal your account
--   Use app-based 2FA not SMS-based 2FA
-    -   The latter has given the rise of attacks where an attacker social engineers their target's phone company
-        into giving them the target's phone number
-    -   Or someone calls pretending to be from IT and asks you to send a code to your phone to verify who they are
-    -   What they have actually done is trigger password reset
-    -   When you read the code back to them, they are into your account
+## Rule 3: Use relevant threat models.
 
-## Rule 7: Check your devices periodically.
+Edward Snowden and the journalists who worked with him took extraordinary
+measures to safeguard themselves against **state-level actors**
+[[Snow2019](#Snow2019)], but most of us aren't involved in issues of national
+security and don't need to take those kinds of precautions.  Instead, we
+typically face one of three kinds of threat illustrated by the examples below.
 
--   App-based vs. SMS-based 2FA is an example of a Red Queen race: both sides are constantly evolving
--   So check devices periodically, just as you would take your car in for an oil change
-    -   In fact, one of the authors does these things at the same time in order to remember both...
--   Do *not* plug a random USB into your device
-    -   It's like letting a complete stranger into your home unsupervised
--   Used to recommend using separate devices or accounts for work and personal, but this is unrealistic
-    -   Everyone checks their personal email from their work device eventually
-    -   And everyone uses their personal phone to get SMS for 2FA
--   Consider getting a second phone for international travel
-    -   Legalities and practicalities around who can take it and/or force you unlock it are complicated
-    -   But at least it will mean fewer distractions
+-   **Casual threats** are opportunistic. For example, Monica, a professor in
+    psychology, is targeted by Mohan, an undergraduate in computer science who
+    spends hours every day in online echo chambers complaining about how "SJW
+    bullshit" is ruining tech. He really didn't enjoy Monica's guest lecture on
+    discrimination and inclusivity in his software engineering class, and thinks
+    it would be a laugh to make her the target of anonymous abuse online. He is
+    unlikely to invest significant effort in his attack (at least not
+    initially), but his attack may be backed up by more knowledgeable advisors
+    in online forums.
 
-## Rule 8: Tighten your social media privacy settings.
+-   **Intimate threats** come from people who know their targets' passwords or
+    have a chance to install spyware on their targets' devices [[Leit2019](#Leit2019)].
+    For example, Elena, graduate student, is targeted by her romantic partner Eric,
+    who is also a graduate student but not in the same department. Their
+    relationship had become increasingly abusive over the last two years. With
+    the help of friends, Elena has moved out of their shared apartment and is
+    rebuilding her life; Eric is obsessed with the idea that she left him for
+    someone else and is now stalking her.
 
--   Seemingly-innocuous information can give attackers valuable clues
-    -   Restaurant "likes" reveal date and location
-    -   Funny stories about childhood birthday parties reveal likely answers to security questions
--   Google, Facebook, and others make money selling targeted advertising to you and data about you
-    -   Note: laws guaranteeing free speech don't actually require them to give a platform to hate speech,
-        but it is profitable
--   They have been forced to give users at least a little control over personal data,
-    but frequently change their terms of service in opaque ways
--   Attackers can friend your friends in an attempt to get information about you
-    -   "What was the name of your first school?"
--   "Authorized apps" are often the worst offenders
-    -   And that's not even counting the ones that turn out to be government-sponsored spyware @Schn2019
--   Go through settings periodically and turn off almost everything
-    -   As tedious and as necessary as cleaning leaves out of your gutters
+-   **Insider threats** come from people who have legitimate access to accounts
+    and devices. For example, Boris, professor of medicine, is targeted by
+    Bethany, who works for the university's IT department.  Boris has agreed to
+    serve as an expert witness in an upcoming liability case involving a large
+    chemical company; Bethany has been asked by a former colleague to find out
+    what he is going to say in order to discredit his testimony.
 
-## Rule 9: Erase before discarding.
+## Rule 4: Use a password manager.
 
--   Moving files into the trash and then emptying it does *not* actually erase the data
-    -   Just tells the computer that the space is available for re-use
-    -   Which is why reporters and private investigators go dumpster diving regularly
--   Best answer is to encrypt the drive in the first place
-    -   A quick setup option for all major operating systems these days
--   Act as if any account you shut down or any device you throw away is going to fall into unfriendly hands
--   So destroy devices if you can
-    -   Many cities have electronics recycling programs
-    -   Though that's someone else you now need to trust
--   And erase data if you can't destroy devices
-    -   Practically impossible to truly delete data from social networking sites
-    -   "Delete" usually means "don't show any more" rather than "erase all record of"
--   Use a secure deletion tool (e.g., BleachBit on Linux or Windows)
--   But none of this affects backups or files stored online (e.g., Dropbox)
+Using a weak password is a good way to ensure that your account will eventually
+be compromised, in part because **dictionary attacks** can be run offline
+against encrypted password files to find passwords that match common
+patterns. Using a clever password scheme, such as the name of the site plus a
+word only you know, does not increase security by much: whatever scheme you have
+thought of, attackers have seen before.  And since people are often identified
+on multiple sites by the same email address, as soon as one site where you've
+used that scheme is compromised, attackers can guess the scheme and use it
+elsewhere.
+
+Reusing passwords ensures that damage spreads, so using a different password for
+each site helps limit harm if any are compromised. However, strong passwords are
+hard to remember and to type, so always use a **password manager** that
+generates strong passwords and saves them all under a master **passphrase**.
+Your passphrase should be several words long and something you are unlikely to
+forget. It does create a single point of attack, but is still safer than
+choosing passwords yourself, since password managers aren't fooled by
+similar-seeming sites like `paypaI.com`.
+
+And despite what you may have heard, writing passwords down and keeping them in
+your wallet is not a bad practice: you have been keeping bits of paper safe
+since you were a child, and you'll know if your written passwords go missing or
+are stolen.
+
+## Rule 5: Use two-factor authentication.
+
+Authentication relies on something you *know* (like a password), something you
+*have* (like a security key), or something you *are* (like your fingerprints).
+**Two-factor authentication** requires two of these together to establish your
+identity, e.g., a password (which can be stolen electronically) plus a random
+code generated by an app on your phone (which means attackers need access to
+you).
+
+2FA is as important to security as using a password manager, but where possible,
+you should rely on an app for 2FA instead of using text messages. What you
+should *never* do is share a confirmation code, since a common attack is to
+trigger a password reset and then call the victim pretending to be from the IT
+department and ask them to read the code back to "verify" your account. As soon
+as you do this, the attacker can change your password and get into your account.
+
+## Rule 6: Think before opening.
+
+Much of the software we use was designed in more innocent times, and since
+companies are almost never held liable for the damage caused by their software,
+they have consistently prioritized convenience for the many over harm to the
+few. One common example is documents that contain code called "macros" that
+automatically execute when the document is opened. Used for good, a macro can
+check that an address field has been filled in correctly. Used for evil, it can
+mail the contents of your address book anywhere in the world. Microsoft Word and
+Excel are particularly notorious for this vulnerability, but many other kinds of
+documents have the same flaw.
+
+Attempts to get you to open an email attachment, click on a link, install
+software, or log into a website are called **phishing** attacks.  The strongest
+defense is to never do these things, but in the modern world that would make
+most work impossible. The second-best defense is to take sensible
+precautions. For example, *never* open email attachments without first running
+them through a virus scanner---not even if you trust the person who sent it,
+because their computer might just have been compromised. Using cloud
+applications such as Google Docs instead of desktop applications means you don't
+have to download files, but the tradeoff is that you are now giving all of your
+data to a company whose business model is to sell your personal information to
+unaccountable third parties.
+
+Similarly, don't click links in emails without checking them first: instead,
+hover over the link and see if it matches the site it claims to
+be. Alternatively, log into the site manually rather than following the provided
+link. It takes more time, but is still faster than fixing your credit
+rating. And when you go to a web site, check the real domain name in the URL:
+`paypaI.com` with an upper-case "I" instead of a lower-case "l" is not the site
+it pretends to be, and `wwwpaypal.com` is a different domain than
+`www.paypal.com`.
+
+> Many sites send an email with a random URL to confirm your identity when you
+> are resetting your password. On the one hand, this means that an attacker has
+> to get access to your email in order to break into your account. On the other
+> hand, random URLs are hard to type in, so these emails encourage us to click
+> on links in emails. If you are not expecting a password reset email, *don't
+> click on the link*.
+
+While phishing attacks are wide-ranging, **spearphishing** uses data harvested
+from previous victims to attack specific targets. Here, the best defense is to
+very suspicious emails, e.g., by phoning people to confirm their identity. It's
+particularly important to do this when you are sent things like password reset
+instructions. Many IT departments send out messages that are indistinguishable
+from spearphishing attacks, which just trains people to be victims.
+
+## Rule 7: Erase before discarding.
+
+Moving files into the trash and then emptying it does not actually erase the
+data: it just tells the computer that the space is available for re-use. (This
+is why reporters and private investigators regularly go dumpster diving.) The
+best way to address this problem is to encrypt the drive, which is a quick setup
+option for all major operating systems these days.
+
+Even with that, you should act as if any device you throw away is going to fall
+into unfriendly hands. Use a secure deletion tool like BleachBit on Linux or
+Windows before selling, recycling, or discarding your hardware, but keep in mind
+that this doesn't affect backups or files stored online on sites like Dropbox.
+And keep in mind that it is practically impossible to truly delete data from
+social networking sites: in most cases, their "delete" usually means "don't show
+any more" rather than "erase all past record of".
+
+## Rule 8: Check your devices and accounts periodically.
+
+Google, Facebook, and others make money selling targeted advertising to you and
+data about you. They have been forced to give users a semblance of control over
+personal data, but they frequently change their terms of service in opaque ways.
+Seemingly-innocuous information can give attackers valuable clues: restaurant
+"likes" reveal where you were at specific times, while funny stories about
+childhood birthday parties reveal likely answers to security questions. Take
+advantage of what little protection they have been forced to allow you; again,
+if you get into the habit of doing this every time you do some other regular
+task, you're more likely to do both.
+
+Unfortunately, even if you do this, information may leak through others.  For
+example, attackers can friend your friends in an attempt to get information
+about you, such as the name of your first school. And as bad as major social
+media sites are, cell phone applications are often worse (not even counting the
+ones that turn out to be government-sponsored spyware [[Schn2019](#Schn2019)]).
+If a game wants access to your camera and address book, you should probably find
+a different game to play.
+
+Since social media is a fact of life for most of us, you should check your
+settings periodically, just as you would take your car in for an oil change. (In
+fact, the author does these things at the same time in order to remember both.)
+Turn off everything you can and then use a tracking blocker such as Ghostery to
+reduce information leakage.
+
+Many experts recommend using separate devices or accounts for work and personal
+life, but this is increasingly unrealistic. Everyone checks their personal email
+from their work device eventually, and everyone uses their personal phone for
+2FA. However, you should consider getting a second phone for international
+travel: the legalities around who can take your devices and/or force you to
+unlock them are complicated and frequently overstepped, so you should assume
+that anything on or connected to the devices you are traveling with will be
+compromised.
+
+> *Never* plug a random USB drive into your device: it's like letting a complete
+> stranger into your home unsupervised.
+
+## Rule 9: Fight back.
+
+Casual attackers may eventually get bored and move on, but like all bullies,
+they will also often revisit previous victims, and even if they don't, they are
+likely to pick new ones. If you have been attacked:
+
+1.  **Find support.** Being targeted is frightening and wearying, particularly
+    if you belong to one of the many groups that are targeted in real life as
+    well as online. Let family, friends, and colleagues know what is happening
+    so that they can support you. They may also be able to offer advice if they
+    have been in similar situations.
+
+2.  **Document everything.** Save emails and take screenshots of sites like
+    Facebook and Twitter (in case attackers delete or alter material).
+
+3.  **Do not engage directly.** Casual attackers are often seeking attention, so
+    a direct response often encourages further attacks (and can draw attention
+    from like-minded attackers).
+
+4.  **Report the attack.** Social media sites have done everything they can to
+    avoid being accountable for facilitating online attacks, but companies and
+    universities will usually take what steps they can once they know there is a
+    problem. In the author's experience, they are most likely to do this if they
+    believe that you might speak publicly about what has happened and thereby
+    damage their reputation, so never agree to a non-disclosure agreement that
+    would prevent you from doing so.
 
 ## Rule 10: It's not all about you.
 
--   Keep others safe by putting passwords on PDFs you're sending that contains sensitive information
-    -   Sending tax receipts as attachments that anyone could open is just inviting trouble
--   If you are compromised, let those affected know
--   Ask politicians to strengthen liability legislation
-    -   Making credit card companies liable for the cost of fraud put the incentives where the power is
-    -   Driving is safer than it used to be in part because drivers and car manufacturers are legally liable
+Our final rule brings us full circle to the first one. We don't just wear masks
+to prevent ourselves from becoming infected: we also wear them so that we will
+not infect others. Similarly, if you do not take precautions with online
+security then you are putting others at risk.  Simple steps like putting
+passwords on PDFs that contain sensitive information can go a long way to deter
+attackers, in the same way that a sturdy-looking bike lock encourages would-be
+thieves to go after some other bike. And if you *are* compromised, let those
+affected know as soon as you can.
 
-## Conclusion
+But the only long-term way to improve everyone's online safety is to pressure
+politicians to strengthen liability legislation so that companies, universities,
+and other institutions have real incentives to take meaningful action. Cars and
+drugs are as safe as they are because their manufacturers are liable for
+negligence and harm. The sooner software companies and social media sites are
+liable as well, the safer all of us will be.
 
--   We haven't included VPNs or Tor
-    -   A **Virtual Private Network** (VPN) connects your device to a server,
-        then has the server make connections to other machines on your behalf
-        -   All messages between your device and the server are encrypted
-        -   And the server can be managed by professional IT staff, in a jurisdiction with tight privacy laws, etc.
-    -   Tor routes messages randomly through a network of servers, making traffic much harder to track
-    -   Both reduce risk but neither eliminates it
-        -   If your device has been compromised
-        -   If the VPN is compromised (or subpoenaed)
-        -   If you log in to accounts over Tor (revealing your identity to those sites, which may then be compromised)
--   You will sometimes break rules because you have to get your job done,
-    just as you will sometimes not tie off a ladder before going onto the roof
-    -   Again, situational awareness to find a balance between security and fatigue
--   Most important thing is that safer *is* possible
--   Thank to Claire Bowen (Urban Institute),
-    Leigh Honeywell (Tall Poppy),
-    Mike Hoye (Mozilla),
-    Scott Jackson (RStudio),
-    Rick Johnson (RStudio),
-    and Sydney Young (EFF)
-    for their feedback
+*The author is grateful to Claire Bowen (Urban Institute), Leigh Honeywell (Tall
+Poppy), Mike Hoye (Mozilla), Scott Jackson (RStudio), Rick Johnson (RStudio),
+and Sydney Young (EFF) for their feedback on this article.*
 
-## Glossary
+## Appendix: VPNs and Tor
 
--   casual threat
--   dictionary attack
--   insider threat
--   intimate threat
--   nested attachments
--   passphrase
--   password manager
--   phishing
--   security fatigue
--   security theater
--   situational awareness
--   social engineering
--   spearphishing
--   state-level actor
--   threat model
--   two-factor authentication (2FA)
--   Virtual Private Network (VPN)
+A Virtual Private Network (VPN) connects your device to a server, then has the
+server make connections to other machines on your behalf. All messages between
+your device and the server are encrypted, and the server can be managed by
+professional IT staff in a jurisdiction with tight privacy laws to increase your
+safety. A specialized web browser called Tor routes messages randomly through a
+network of servers, making traffic much harder to track. Both of these reduce
+risk, but neither eliminates it if your device has been compromised, if the VPN
+is compromised (or subpoenaed), or if you log in to accounts over Tor (thereby
+revealing your identity to those sites).
 
 ## Bibliography
 
-Amro2018:
+<span id="Amro2018">Amro2018</span>:
 :   Belal M. Amro, Mohanad O. Al-Jabari, Hussein M. Jabareen, Yousef S. Khader, and Adel Taweel:
     "[Design and Development of Case Studies in Security and Privacy for Health Informatics Education](https://doi.org/10.1109/aiccsa.2018.8612876)".
     In *2018 Conference on Computer Systems and Applications*, Oct 2018, doi:10.1109/aiccsa.2018.8612876.
 
-Blue2015:
-:   Violet Blue:
+<span id="Blue2015">Blue2015</span>:
+:   Violet Blue: 
     *The Smart Girl's Guide to Privacy: Practical Tips for Staying Safe Online*.
     No Starch Press, 2015, 978-1593276485.
 
-Cove2018:
+<span id="Cove2018">Cove2018</span>:
 :   Lynne Coventry and Dawn Branley:
     "[Cybersecurity in healthcare: A narrative review of trends,  threats and ways forward](https://doi.org/10.1016/j.maturitas.2018.04.008)".
     *Maturitas*, 113, Jul 2018, doi:10.1016/j.maturitas.2018.04.008.
 
-EFF:
+<span id="EFF">EFF</span>:
 :   Electronic Frontier Foundation:
     "Surveillance Self-Defense: Tips, Tools and How-Tos for Safer Online Communications".
     <https://ssd.eff.org/>, Viewed 2020-01-25.
 
-Filk2016:
+<span id="EFJ2015">EFJ2015</span>:
+:   European Federation of Journalists:
+    "Cyber security training for journalists: Tips and tricks to keep your communications safe".
+    <https://europeanjournalists.org/blog/2015/01/22/cyber-security-training-for-journalists/>, Viewed 2020-01-25.
+
+<span id="Filk2016">Filk2016</span>:
 :   Barbara Filkins, Ju Young Kim, Bruce L. Roberts, Winston Armstrong, Mark A. Miller, Michael L Hultner, Anthony P Castillo, Jean-Christophe Ducom, Eric J. Topol, and Steven R. Steinhubl:
     "Privacy and security in the era of digital health: what should translational researchers know and do about it?".
     *American Journal of Translational Research*, 8(3), 2016.
 
-FLD:
+<span id="FLD">FLD</span>:
 :   Front Line Defenders:
     "Digital Security Resources".
     <https://www.frontlinedefenders.org/en/digital-security-resources>, Viewed 2020-01-25.
 
-Leit2019:
-:   Roxanne Leitão:
+<span id="Leit2019">Leit2019</span>:
+:   Roxanne Leit\~ao:
     "[Technology-Facilitated Intimate Partner Abuse: a qualitative analysis of data from online domestic abuse forums](https://doi.org/10.1080/07370024.2019.1685883)".
-    *Human–Computer Interaction*, 12 2019, doi:10.1080/07370024.2019.1685883.
+    *Human--Computer Interaction*, 12 2019, doi:10.1080/07370024.2019.1685883.
 
-Natu2010:
+<span id="Natu2010">Natu2010</span>:
 :   Editorial:
     "[Closing the Climategate](https://doi.org/10.1038/468345a)".
     *Nature*, 468(7322), 11 2010, doi:10.1038/468345a.
 
-Schn2019:
+<span id="Schn2019">Schn2019</span>:
 :   Bruce Schneier:
     "ToTok Is an Emirati Spying Tool".
     <https://www.schneier.com/blog/archives/2019/12/totok_is_an_emi.html>, Viewed 2020-01-25.
 
-Snow2019:
-:   Edward Snowden:
+<span id="Snow2019">Snow2019</span>:
+:   Edward Snowden: 
     *Permanent Record*.
     Metropolitan Books, 2019, 978-1250237231.
 
-Stan2016:
+<span id="Stan2016">Stan2016</span>:
 :   Brian Stanton, Mary F. Theofanos, Sandra Spickard Prettyman, and Susanne Furman:
     "[Security Fatigue](https://doi.org/10.1109/mitp.2016.84)".
     *IT Professional*, 18(5), Sep 2016, doi:10.1109/mitp.2016.84.
