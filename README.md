@@ -154,6 +154,12 @@ trigger a password reset and then call the victim pretending to be from the IT
 department and ask them to read the code back to "verify" your account. As soon
 as you do this, the attacker can change your password and get into your account.
 
+> Many security experts now recommend using a physical 2FA key such as a
+> YubiKey, which fits on a keychain and plugs into a standard USB port.  Sites
+> like [Tech Solidarity](https://techsolidarity.org/) have easy-to-follow
+> instructions explaining how to set them up for a range of popular social
+> networking sites.
+
 ## Rule 6: Think before opening.
 
 Much of the software we use was designed in more innocent times, and since
@@ -300,9 +306,10 @@ drugs are as safe as they are because their manufacturers are liable for
 negligence and harm. The sooner software companies and social media sites are
 liable as well, the safer all of us will be.
 
-*The author is grateful to Claire Bowen (Urban Institute), Leigh Honeywell (Tall
-Poppy), Mike Hoye (Mozilla), Scott Jackson (RStudio), Rick Johnson (RStudio),
-and Sydney Young (EFF) for their feedback on this article.*
+> The author is grateful to Claire Bowen (Urban Institute), Leigh Honeywell
+> (Tall Poppy), Mike Hoye (Mozilla), Scott Jackson (RStudio), Rick Johnson
+> (RStudio), Cheng Soon Ong (CSIRO), and Sydney Young (EFF) for their feedback
+> on this article.
 
 ## Appendix: VPNs and Tor
 
