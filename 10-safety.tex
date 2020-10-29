@@ -1,9 +1,6 @@
 \documentclass[10pt,letterpaper]{article}
 \input{settings}
 
-\newcommand{\rulemajor}[1]{\section*{#1}}
-\newcommand{\withurl}[2]{{#1}\footnote{{\texttt{#2}}}}
-
 \begin{document}
 \vspace*{0.2in}
 
@@ -40,7 +37,7 @@ They do not guarantee complete safety,
 any more than seatbelts guarantee safe driving,
 but following them greatly reduces the likelihood of harm.
 
-\rulemajor{Rule 1: Put on your own mask.}
+\section*{Rule 1: Put on your own mask.}
 
 The first and most important rule is that
 we should not rely on companies, universities, and other institutions to protect us,
@@ -64,7 +61,7 @@ For example,
 forcing people to change passwords every three months
 encourages people to choose memorable (and therefore easy-to-guess) passwords.
 
-\rulemajor{Rule 2: Digital security is rarely the weakest link.}
+\section*{Rule 2: Digital security is rarely the weakest link.}
 
 The second rule is to remember that most attacks take place offline,
 and that the most effective ones are often the simplest.
@@ -108,7 +105,7 @@ and quickly leads to \textbf{security fatigue} \cite{Stan2016}.
 If you are too tired to follow good practices,
 knowing them does you no good.
 
-\rulemajor{Rule 3: Use relevant threat models.}
+\section*{Rule 3: Use relevant threat models.}
 
 Edward Snowden and the journalists who worked with him took extraordinary measures
 to safeguard themselves against \textbf{state-level actors} \cite{Snow2019},
@@ -152,7 +149,7 @@ we typically face one of three kinds of threat illustrated by the examples below
 
 \end{itemize}
 
-\rulemajor{Rule 4: Use a password manager.}
+\section*{Rule 4: Use a password manager.}
 
 Using a weak password is a good way to ensure that your account will eventually be compromised,
 in part because \textbf{dictionary attacks} can be run offline against encrypted password files
@@ -184,7 +181,7 @@ writing passwords down and keeping them in your wallet is not a bad practice:
 you have been keeping bits of paper safe since you were a child,
 and you'll know if your written passwords go missing or are stolen.
 
-\rulemajor{Rule 5: Use two-factor authentication.}
+\section*{Rule 5: Use two-factor authentication.}
 
 Authentication relies on something you \emph{know} (like a password),
 something you \emph{have} (like a security key),
@@ -212,7 +209,7 @@ the attacker can change your password and get into your account.
   explaining how to set them up for a range of popular social networking sites.
 \end{quote}
 
-\rulemajor{Rule 6: Think before opening.}
+\section*{Rule 6: Think before opening.}
 
 Much of the software we use was designed in more innocent times,
 and since companies are almost never held liable for the damage caused by their software,
@@ -275,7 +272,7 @@ things like password reset instructions.
 Many IT departments send out messages that are indistinguishable from spearphishing attacks,
 which just trains people to be victims.
 
-\rulemajor{Rule 7: Erase before discarding.}
+\section*{Rule 7: Erase before discarding.}
 
 Moving files into the trash and then emptying it does not actually erase the data:
 it just tells the computer that the space is available for re-use.
@@ -294,7 +291,7 @@ in most cases,
 their ``delete'' usually means ``don't show any more''
 rather than ``erase all past record of''.
 
-\rulemajor{Rule 8: Check your devices and accounts periodically.}
+\section*{Rule 8: Check your devices and accounts periodically.}
 
 Google, Facebook, and others make money selling targeted advertising to you and data about you.
 They have been forced to give users a semblance of control over personal data,
@@ -343,7 +340,7 @@ will be compromised.
   it's like letting a complete stranger into your home unsupervised.
 \end{quote}
 
-\rulemajor{Rule 9: Fight back.}
+\section*{Rule 9: Fight back.}
 
 Casual attackers may eventually get bored and move on,
 but like all bullies,
@@ -388,7 +385,7 @@ If you have been attacked:
   
 \end{enumerate}
 
-\rulemajor{Rule 10: It's not all about you.}
+\section*{Rule 10: It's not all about you.}
 
 Our final rule brings us full circle to the first one.
 We don't just wear masks to prevent ourselves from becoming infected:
@@ -419,7 +416,6 @@ the safer all of us will be.
   for their feedback on this article.
 \end{quote}
 
-\nocite{*}
 \bibliography{10-safety}
 
 \section*{Appendix: VPNs and Tor}
