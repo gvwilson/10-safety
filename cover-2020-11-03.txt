@@ -1,0 +1,20 @@
+To whom it may concern,
+
+We have revised our article "Ten Quick Tips for Staying Safe Online" as requested, and include a response to the reviewers below along with a PDF highlighting changes. We look forward to your response.
+
+Thanks,
+Danielle Smalls & Greg Wilson
+
+- We agree with Reviewer #1 that these tips are generally applicable, though the threat models are not - we hope that researchers will use them in their personal lives as well as their professional work.
+
+- Both of the stories in Rule 2 are accurate, but we have removed the second for length.
+
+- We have not attempted to explain why researchers in some areas are now being targeted more frequently than before: there are many causes, which can vary widely from case to case, and we believe it may be years before we're able to untangle them objectively.
+
+- Rules 2-9 are the "tangle actions that researchers can/should take to follow rule #1".
+
+- We have included a link to Bruce Schneier's blog with (depressingly) many examples of security theater.
+
+- We have recommended a secure file deletion tool for Mac OS and a password management tool for every platform.
+
+- We have fixed typos and incorporated other minor changes (e.g., "romantic partner" is now "former romantic partner", made it clearer that "Boris" is a fictional character).

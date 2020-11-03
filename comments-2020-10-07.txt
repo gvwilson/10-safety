@@ -1,0 +1,35 @@
+Reviewer #1: The article provides tips for online safety, as advertised. They're mostly common sense and very well known among most digital professionals and others aware of online protection, but most likely the readership of PLOS CB includes many who are either not aware or are not practicing these guidelines.
+
+A few points to note:
+- The introduction states that these are particularly relevant to researchers, but this is not explained. These suggested practices are good advice for everyone who is online, and there are no aspects to them that seem particularly relevant to researchers, so this claim seems to be meaningless. I would suggest either explaining how these are seen to be particularly relevant to researchers or dropping this.
+- The claim that "large companies don't want" the law to catch up technology in Rule #1 seems out of place to me. It would be best to save such broad, debatable statements until the end, along with the similar comments in the last paragraph.
+- In Rule 2, the second anecdote sounds a bit made-up. How did the author know that the stranger was logged in to several online accounts? How did the author know that the passwords were saved in the stranger's browser? It sounds like either the author was behaving inappropriately or just guessing about such details. Perhaps some phrases like "might have been" would be useful here.
+
+Other minor points:
+- In Rule 1, "wouldn't just to" --> "wouldn't just go to" (or something like that)
+- In Rule 3, "her romantic partner" --> "her former romantic partner"
+- In Rule 3, this is the second time "Boris" is used as a random person's name. I suggest choosing another.
+- References 3 and 4 need some work. "of Journalists EF" and "Foundation EF" are not the correct names.
+- Appendix: The first mention of Tor can seem to be part of the VPN discussion, continuing from the second sentence. I.e., a VPN encrypts messages and uses a specialized web browser called Tor. To avoid this, I'd recommend putting the Tor discussion in a separate paragraph, or else introducing it in a way that clarifies this is separate from the VPN sentences.
+
+Reviewer #2: The ten rules discussed in this short article provide general guidelines for information security. While these are common practices in any work environment, enforcing the rules ensures a safe on-line experience to the maximum extent.
+
+Reviewer #3: This manuscript is an important discussion that can act as a checklist/reference guide for researchers to help them navigate the digital world more safely. Many researchers are engaged in far more digital work than ever before. Additionally, even many early-mid career researchers did not received training in personal or professional digital security during their secondary, post-secondary or graduate/postdoctoral training and are thus at high risk for making mistakes that would compromise their personal safety, and the safety of those they teach, as well as participants of their research studies. This piece will become a must-read as a launching point for all researchers who lack formal training in digital security, as well as undergraduate and graduate students who are just beginning their professional journey in our digital world. The manuscript is largely ready to be published, however some additional rationale and citations should be added to support some points, as well as more examples of software to help folks get started improving their own safety online.
+
+# Comments/concerns:
+
+1. The author writes "Researchers studying everything from sexual health to COVID-19 to gun violence are increasingly likely to be targeted because of their work." - it would be nice to add a rationale as to why here? The ease of access to researchers actively engaging online? The polarization of political opinions across the country, and perhaps globe? This sentence is also used in the introduction, and thus, it's rationale should at least be presented there.
+
+2. The author writes " these usually do not address the problem of keeping individuals safe from either targeted attacks or the kinds of "drive-by" threats that **everyone** now faces regardless of their occupation." I think **everyone** is too strong of a word here. Perhaps a better descriptor of their target group should go here? Also, what does the author mean by "drive-by" threats? Perhaps everyone does face these, and it is my lack of knowledge of this term that is hindering my understanding here.
+
+3. What are examples of tangible actions that researchers can/should take to follow rule #1 (put on your own mask)?
+
+4. Are there any documented examples of security theatre that have led to corners being cut and harm being done? The arguments in rule #1 (put on your own mask) would be strengthened by adding this.
+
+5. Please justify/explain why it is important to use relevant threat models and how doing this helps on stay safe online?
+
+6. Make it more clear that Boris is a fictional character (rule #2 section).
+
+7. Please provide examples of password management tools that you recommend.
+
+8. Please suggest a secure deletion tool for Mac OS's given that a significant fraction of the readers will be using this OS.
