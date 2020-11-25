@@ -1,5 +1,48 @@
 \documentclass[10pt,letterpaper]{article}
+%DIF LATEXDIFF DIFFERENCE FILE
+%DIF DEL submission-01.tex   Tue Nov  3 11:03:18 2020
+%DIF ADD 10-safety.tex       Tue Nov  3 11:01:35 2020
 \input{settings}
+%DIF < 
+%DIF < \newcommand{\rulemajor}[1]{\section*{#1}}
+%DIF < \newcommand{\withurl}[2]{{#1}\footnote{{\texttt{#2}}}}
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF UNDERLINE PREAMBLE %DIF PREAMBLE
+\RequirePackage[normalem]{ulem} %DIF PREAMBLE
+\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
+\providecommand{\DIFadd}[1]{{\protect\color{blue}\uwave{#1}}} %DIF PREAMBLE
+\providecommand{\DIFdel}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
+%DIF SAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
+\providecommand{\DIFaddend}{} %DIF PREAMBLE
+\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
+\providecommand{\DIFdelend}{} %DIF PREAMBLE
+\providecommand{\DIFmodbegin}{} %DIF PREAMBLE
+\providecommand{\DIFmodend}{} %DIF PREAMBLE
+%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
+\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
+\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
+%DIF LISTINGS PREAMBLE %DIF PREAMBLE
+\RequirePackage{listings} %DIF PREAMBLE
+\RequirePackage{color} %DIF PREAMBLE
+\lstdefinelanguage{DIFcode}{ %DIF PREAMBLE
+%DIF DIFCODE_UNDERLINE %DIF PREAMBLE
+  moredelim=[il][\color{red}\sout]{\%DIF\ <\ }, %DIF PREAMBLE
+  moredelim=[il][\color{blue}\uwave]{\%DIF\ >\ } %DIF PREAMBLE
+} %DIF PREAMBLE
+\lstdefinestyle{DIFverbatimstyle}{ %DIF PREAMBLE
+	language=DIFcode, %DIF PREAMBLE
+	basicstyle=\ttfamily, %DIF PREAMBLE
+	columns=fullflexible, %DIF PREAMBLE
+	keepspaces=true %DIF PREAMBLE
+} %DIF PREAMBLE
+\lstnewenvironment{DIFverbatim}{\lstset{style=DIFverbatimstyle}}{} %DIF PREAMBLE
+\lstnewenvironment{DIFverbatim*}{\lstset{style=DIFverbatimstyle,showspaces=true}}{} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
 
 \begin{document}
 \vspace*{0.2in}
@@ -10,13 +53,13 @@
 }
 \newline
 \\
-{Danielle Smalls}\textsuperscript{1{\ddag}*}
-{Greg Wilson}\textsuperscript{2{\ddag}}
+{\DIFaddbegin \DIFadd{Danielle Smalls}}\DIFadd{\textsuperscript{1{\ddag}*}
+}{\DIFaddend Greg Wilson}\textsuperscript{\DIFdelbegin \DIFdel{1}\DIFdelend \DIFaddbegin \DIFadd{2}\DIFaddend {\ddag}\DIFdelbegin \DIFdel{*}\DIFdelend }
 \\
 \bigskip
-\textbf{1} MIR Community Group\\
-\textbf{2} RStudio PBC\\
-* Corresponding author, smalls.danielle@gmail.com. \\
+\textbf{1} \DIFdelbegin \DIFdel{RStudio, Inc., Toronto, ON, Canada}\DIFdelend \DIFaddbegin \DIFadd{MIR Community Group}\DIFaddend \\
+\DIFaddbegin \textbf{\DIFadd{2}} \DIFadd{RStudio PBC}\\
+\DIFaddend * Corresponding author, \DIFdelbegin \DIFdel{greg.wilson}\DIFdelend \DIFaddbegin \DIFadd{smalls.danielle}\DIFaddend @\DIFdelbegin \DIFdel{rstudio}\DIFdelend \DIFaddbegin \DIFadd{gmail}\DIFaddend .com. \\
 \bigskip
 {\ddag} These authors contributed equally to this work.
 \end{flushleft}
@@ -33,57 +76,84 @@ either targeted attacks like Climategate \cite{Natu2010} or the kinds of
 Hollywood depictions of everyday threats are as far from reality as their
 portrayals of scientists, but more realistic guidance for personal digital
 security is now freely available \cite{FLD,EFJ2015,EFF}. The ten quick tips in
-this paper are a starting point: while they apply to everyone, they were
+this paper are a starting point: while they apply to everyone, they \DIFdelbegin \DIFdel{are particularly relevant to researchers .
+They }\DIFdelend \DIFaddbegin \DIFadd{were
 developed with researchers in mind. While researchers expect their work to be
 scrutinized by the academic community, they should not expect to endure
-harassment due to the visibility of their published works. These rules do not
+harassment due to the visibility of their published works. These rules }\DIFaddend do not
 guarantee complete safety, any more than seatbelts guarantee safe driving, but
 following them greatly reduces the likelihood of harm.
 
-\section*{Rule 1: Put on your own mask.}
+\DIFdelbegin %DIFDELCMD < \rulemajor{Rule 1: Put on your own mask.}
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \section*{\DIFadd{Rule 1: Put on your own mask.}}
+\DIFaddend 
 
 The first and most important rule is that we should not rely on companies,
 universities, and other institutions to protect us, for the simple reason that
 they are not penalized if they don't. As recently as ten years ago we could
 blame the lack of meaningful institutional liability for data breaches on the
-law being slow to catch up with rapidly-changing technology. Accountability for
-these breaches is practically non-existent: data breaches have minimal impact on
-companies' profitability and individuals are almost never fined, much less
+law being slow to catch up with rapidly-changing technology. \DIFdelbegin \DIFdel{Today,
+it's clear that the law hasn't caught up because large tech companies don't want it to.
+Weekly reports of }\DIFdelend \DIFaddbegin \DIFadd{Accountability for
+these breaches is practically non-existent: }\DIFaddend data breaches have minimal impact on
+\DIFdelbegin \DIFdel{profitability and no individual ever goes to jail
+}\DIFdelend \DIFaddbegin \DIFadd{companies' profitability and individuals are almost never fined, much less
 jailed.
+}\DIFaddend 
 
-Much of what institutions force us to go through is \textbf{security theater}
+Much of what institutions force us to go through \DIFdelbegin \DIFdel{online }\DIFdelend is \textbf{security theater}
 intended to make us believe something is being done rather than to actually make
-us safer. Requiring people to take off their shoes at airports is one example;
+us safer. Requiring people to take off their shoes at airports is \DIFdelbegin \DIFdel{perhaps the best-known }\DIFdelend \DIFaddbegin \DIFadd{one }\DIFaddend example;
 random searches of backpacks and bags at the entrance to the subway is another,
-since it's hard to imagine that a would-be attacker \emph{wouldn't} just go to
-another entrance. (Bruce Schneier's blog \cite{SchnBlog} has many examples of
+since it's hard to imagine that a would-be attacker \emph{wouldn't} just \DIFaddbegin \DIFadd{go }\DIFaddend to
+another entrance. \DIFaddbegin \DIFadd{(Bruce Schneier's blog
+has many examples of
 security theater and the harm it does.)
+}\DIFaddend 
 
 Security theater is counter-productive because it encourages us to cut corners
 in ways that actually make us \emph{less} safe. For example, forcing people to
 change passwords every three months encourages people to choose memorable (and
 therefore easy-to-guess) passwords.
 
-\section*{Rule 2: Digital security is rarely the weakest link.}
+\DIFdelbegin %DIFDELCMD < \rulemajor{Rule 2: Digital security is rarely the weakest link.}
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \section*{\DIFadd{Rule 2: Digital security is rarely the weakest link.}}
+\DIFaddend 
 
 The second rule is to remember that most attacks take place offline, and that
 the most effective ones are often the simplest. At an airport several years ago,
-one author heard a professor of computer science try to reset an online account
+\DIFdelbegin \DIFdel{the }\DIFdelend \DIFaddbegin \DIFadd{one }\DIFaddend author heard a professor of computer science try to \DIFdelbegin \DIFdel{re-set }\DIFdelend \DIFaddbegin \DIFadd{reset }\DIFaddend an online account
 over the phone. In just a couple of minutes, they had inadvertently told
 everyone in the lounge their full name, their date of birth, the three-digit
 verification code on the back of their credit card, and what was almost
 certainly their mother's maiden name.
 
-The moral of this story is that safety comes from good habits, not technology.
+\DIFdelbegin \DIFdel{On that same trip,
+a complete stranger (also a computer science professor)
+asked the author to watch their laptop while they went to the washroom.
+They were logged in to several online accounts at the time,
+and even if they weren't,
+the passwords saved in their browser could have been viewed with just a few mouse clicks.
+}%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdelend The moral of \DIFdelbegin \DIFdel{these stories }\DIFdelend \DIFaddbegin \DIFadd{this story }\DIFaddend is that safety comes from good habits, not technology.
 \textbf{Social engineering} is far more common than hacking: in practice it is
 far easier to trick someone into giving you their password than to break into
 their devices digitally.
 
 The key practice is \textbf{situational awareness}, which is a fancy way of
-saying, ``Pay attention to what's happening and respond accordingly.'' If you
-start working on a high-profile subject that will likely attract controversy you
-should take more precautions than usual. For example, someone should recognize
-that agreeing to be an expert witness increases the odds that they will be
+saying, ``Pay attention to what's happening and respond accordingly.'' \DIFdelbegin \DIFdel{You shouldn't always be afraid to walk after dark,
+but you
+should use good judgment about where not to go.
+Similarly,
+if you notice unusual activity or if you }\DIFdelend \DIFaddbegin \DIFadd{If you
+}\DIFaddend start working on \DIFdelbegin \DIFdel{something that may attract unwanted attention,
+}\DIFdelend \DIFaddbegin \DIFadd{a high-profile subject that will likely attract controversy }\DIFaddend you
+should take more precautions than usual. For example, \DIFdelbegin \DIFdel{Boris }\DIFdelend \DIFaddbegin \DIFadd{someone }\DIFaddend should recognize
+that agreeing to be an expert witness increases the odds that \DIFdelbegin \DIFdel{he }\DIFdelend \DIFaddbegin \DIFadd{they }\DIFaddend will be
 targeted, and should be more careful about what he puts into email while
 preparing and delivering his testimony.
 
@@ -92,7 +162,10 @@ guard all the time is exhausting and quickly leads to \textbf{security fatigue}
 \cite{Stan2016}. If you are too tired to follow good practices, knowing them does
 you no good.
 
-\section*{Rule 3: Use relevant threat models.}
+\DIFdelbegin %DIFDELCMD < \rulemajor{Rule 3: Use relevant threat models.}
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \section*{\DIFadd{Rule 3: Use relevant threat models.}}
+\DIFaddend 
 
 Edward Snowden and the journalists who worked with him took extraordinary
 measures to safeguard themselves against \textbf{state-level actors}
@@ -101,7 +174,10 @@ security and don't need to take those kinds of precautions. Instead, we
 typically face one of three kinds of threat illustrated by the examples below.
 
 \begin{itemize}
-\item
+\DIFdelbegin %DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdelend \item
   \textbf{Casual threats} are opportunistic. For example, Monica, a professor in
   psychology, is targeted by Mohan, an undergraduate in computer science who
   spends hours every day in online echo chambers complaining about how ``SJW
@@ -109,16 +185,17 @@ typically face one of three kinds of threat illustrated by the examples below.
   discrimination and inclusivity in his software engineering class, and thinks
   it would be a laugh to make her the target of anonymous abuse online. He is
   unlikely to invest significant effort in his attack (at least not initially),
-  but his attack may be backed up by more knowledgeable members of online
-  forums. They are almost certainly not computer security specialists; instead,
+  but his attack may be backed up by more knowledgeable \DIFdelbegin \DIFdel{advisors in }\DIFdelend \DIFaddbegin \DIFadd{members of }\DIFaddend online
+  forums. \DIFaddbegin \DIFadd{They are almost certainly not computer security specialists; instead,
   they are probably older versions of Mohan who have picked up a few tricks and
   bits of software and enjoy the digital equivalent of throwing bricks through
   strangers' windows.
+}\DIFaddend 
 
 \item
   \textbf{Intimate threats} come from people who know their targets' passwords
   or have a chance to install spyware on their targets' devices \cite{Leit2019}.
-  For example, Elena, graduate student, is targeted by her former romantic
+  For example, Elena, graduate student, is targeted by her \DIFaddbegin \DIFadd{former }\DIFaddend romantic
   partner Eric, who is also a graduate student but not in the same department.
   Their relationship had become increasingly abusive over the last two years.
   With the help of friends, Elena has moved out of their shared apartment and is
@@ -132,9 +209,15 @@ typically face one of three kinds of threat illustrated by the examples below.
   serve as an expert witness in an upcoming liability case involving a large
   chemical company; Bethany has been asked by a former colleague to find out
   what he is going to say in order to discredit his testimony.
-\end{itemize}
+\DIFdelbegin %DIFDELCMD < 
 
-\section*{Rule 4: Use a password manager.}
+%DIFDELCMD < %%%
+\DIFdelend \end{itemize}
+
+\DIFdelbegin %DIFDELCMD < \rulemajor{Rule 4: Use a password manager.}
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \section*{\DIFadd{Rule 4: Use a password manager.}}
+\DIFaddend 
 
 Using a weak password is a good way to ensure that your account will eventually
 be compromised, in part because \textbf{dictionary attacks} can be run offline
@@ -152,18 +235,27 @@ generates strong passwords and saves them all under a master \textbf{passphrase}
 Your passphrase should be several words long and something you are unlikely to
 forget. It does create a single point of attack, but is still safer than
 choosing passwords yourself, since password managers aren't fooled by
-similar-seeming sites like paypaI.com.
+similar-seeming sites like \DIFdelbegin \texttt{\DIFdel{paypaI.com}}%DIFAUXCMD
+\DIFdel{.}\DIFdelend \DIFaddbegin \DIFadd{paypaI.com.
+}\DIFaddend 
 
-\begin{quote}
-  Writing passwords down and keeping them in your wallet is not necessarily a
+\DIFdelbegin \DIFdel{And despite what you may have heard,
+writing }\DIFdelend \DIFaddbegin \begin{quote}
+  \DIFadd{Writing }\DIFaddend passwords down and keeping them in your wallet is not \DIFdelbegin \DIFdel{a bad practice:
+you have been keeping }\DIFdelend \DIFaddbegin \DIFadd{necessarily a
   bad practice---it depends on who is doing it. For example, an elderly person
   who finds tech confusing might well choose simple, easy-to-guess passwords for
   their accounts if they have to be remembered. On the other hand, they have a
-  lifetime of practice keeping track of bits of paper, and will probably notice
-  if their purse or wallet is stolen.
-\end{quote}
+  lifetime of practice keeping track of }\DIFaddend bits of paper\DIFdelbegin \DIFdel{safe since you were a child, and you'll know if your written passwords go missing or are stolen.
+}\DIFdelend \DIFaddbegin \DIFadd{, and will probably notice
+  if their purse or wallet is stolen\ldots{}
+}\end{quote}
+\DIFaddend 
 
-\section*{Rule 5: Use two-factor authentication.}
+\DIFdelbegin %DIFDELCMD < \rulemajor{Rule 5: Use two-factor authentication.}
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \section*{\DIFadd{Rule 5: Use two-factor authentication.}}
+\DIFaddend 
 
 Authentication relies on something you \emph{know} (like a password), something
 you \emph{have} (like a security key), or something you \emph{are} (like your
@@ -188,7 +280,10 @@ account.
   networking sites.
 \end{quote}
 
-\section*{Rule 6: Think before opening.}
+\DIFdelbegin %DIFDELCMD < \rulemajor{Rule 6: Think before opening.}
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \section*{\DIFadd{Rule 6: Think before opening.}}
+\DIFaddend 
 
 Much of the software we use was designed in more innocent times, and since
 companies are almost never held liable for the damage caused by their software,
@@ -196,26 +291,34 @@ they have consistently prioritized convenience for the many over harm to the
 few. One common example is documents that contain code called ``macros'' that
 automatically execute when the document is opened. Used for good, a macro can
 check that an address field has been filled in correctly. Used for evil, it can
-email everyone in your address book, or send a copy of those addresses to anyone
-in the world.  Microsoft Word and Excel are particularly notorious for this
+\DIFdelbegin \DIFdel{mail the contents of }\DIFdelend \DIFaddbegin \DIFadd{email everyone in }\DIFaddend your address book\DIFdelbegin \DIFdel{anywhere }\DIFdelend \DIFaddbegin \DIFadd{, or send a copy of those addresses to anyone
+}\DIFaddend in the world.  Microsoft Word and Excel are particularly notorious for this
 vulnerability, but many other kinds of documents have the same flaw.
 
 Attempts to get you to open an email attachment, click on a link, install
 software, or log into a website are called \textbf{phishing} attacks. The
 strongest defense is to never do these things, but in the modern world that
 would make most work impossible. The second-best defense is to take sensible
-precautions. If you are able, invest in virus scanning software such as
-\href{https://www.proofpoint.com/us/products/email-protection}{Proofpoint}
-to scan email attachments before you download them. While many email clients
+precautions. \DIFdelbegin \DIFdel{For example,
+}\emph{\DIFdel{never}} %DIFAUXCMD
+\DIFdel{open email attachments without first running them through a virus scanner---not even
+if you trust the person who sent it, because their computer might just have been compromised.
+Using cloud applications such as
+Google Docs instead of desktop applications means you don't have to download files, but the tradeoff is that you are now giving all of
+your data to a company
+whose business model is to sell your personal information to unaccountable third parties}\DIFdelend \DIFaddbegin \DIFadd{If you are able, invest in virus scanning software such as
+}\href{https://www.proofpoint.com/us/products/email-protection}{Proofpoint}
+\DIFadd{to scan email attachments before you download them. While many email clients
 have virus scanning technology built-in, this will offer an extra layer of
-protection.
+protection}\DIFaddend .
 
 Similarly, don't click links in emails without checking them first: instead,
 hover over the link and see if it matches the site it claims to be.
 Alternatively, log into the site manually rather than following the provided
 link. It takes more time, but is still faster than fixing your credit rating.
-And when you go to a web site, check the real domain name in the URL: paypaI.com
-with an upper-case ``I'' instead of a lower-case ``l'' is not the site it
+And when you go to a web site, check the real domain name in the URL: \DIFdelbegin \texttt{\DIFdel{paypaI.com}} %DIFAUXCMD
+\DIFdelend \DIFaddbegin \DIFadd{paypaI.com
+}\DIFaddend with an upper-case ``I'' instead of a lower-case ``l'' is not the site it
 pretends to be, and \texttt{wwwpaypal.com} is a different domain than
 \texttt{www.paypal.com}.
 
@@ -228,54 +331,64 @@ pretends to be, and \texttt{wwwpaypal.com} is a different domain than
   email, \emph{don't click on the link}.
 \end{quote}
 
-While phishing attacks are wide-ranging, \textbf{spearphishing} describes the
-use of data harvested from previous victims to attack specific targets. Here,
+While phishing attacks are wide-ranging, \textbf{spearphishing} \DIFdelbegin \DIFdel{uses }\DIFdelend \DIFaddbegin \DIFadd{describes the
+use of }\DIFaddend data harvested from previous victims to attack specific targets. Here,
 the best defense is to very suspicious emails, e.g., by phoning people to
 confirm their identity. It's particularly important to do this when you are sent
 things like password reset instructions. Many IT departments send out messages
 that are indistinguishable from spearphishing attacks, which just trains people
 to be victims.
 
-\section*{Rule 7: Erase before discarding.}
+\DIFdelbegin %DIFDELCMD < \rulemajor{Rule 7: Erase before discarding.}
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \section*{\DIFadd{Rule 7: Erase before discarding.}}
+\DIFaddend 
 
 Moving files into the trash and then emptying it does not actually erase the
-data: it just tells the computer that the space is available for reuse. (This is
+data: it just tells the computer that the space is available for \DIFdelbegin \DIFdel{re-use}\DIFdelend \DIFaddbegin \DIFadd{reuse}\DIFaddend . (This is
 why reporters and private investigators regularly go dumpster diving.) The best
-way to address this problem is to encrypt your hard drive, which is a quick
+way to address this problem is to encrypt \DIFdelbegin \DIFdel{the }\DIFdelend \DIFaddbegin \DIFadd{your hard }\DIFaddend drive, which is a quick
 setup option for all major operating systems these days.
 
 Even with that, you should act as if any device you throw away is going to fall
-into unfriendly hands. Use a secure deletion tool like BleachBit (Linux or
-Windows) or FileShredder (MacOS) before selling, recycling, or discarding your
+into unfriendly hands. Use a secure deletion tool like BleachBit \DIFdelbegin \DIFdel{on }\DIFdelend \DIFaddbegin \DIFadd{(}\DIFaddend Linux or
+Windows\DIFaddbegin \DIFadd{) or FileShredder (MacOS) }\DIFaddend before selling, recycling, or discarding your
 hardware, but keep in mind that this doesn't affect backups or files stored
 online on sites like Dropbox. And keep in mind that it is practically impossible
 to truly delete data from social networking sites: in most cases, their
 ``delete'' usually means ``don't show any more'' rather than ``erase all past
 record of''.
 
-\section*{Rule 8: Check your devices and accounts periodically.}
+\DIFdelbegin %DIFDELCMD < \rulemajor{Rule 8: Check your devices and accounts periodically.}
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \section*{\DIFadd{Rule 8: Check your devices and accounts periodically.}}
+\DIFaddend 
 
-Many tech companies who offer free products and services make money by selling
-targeted advertising to you using the data they have about you.  They do give
-users some control over personal data, but they frequently change their terms of
+\DIFdelbegin \DIFdel{Google, Facebook, and others make money }\DIFdelend \DIFaddbegin \DIFadd{Many tech companies who offer free products and services make money by }\DIFaddend selling
+targeted advertising to you \DIFdelbegin \DIFdel{and data }\DIFdelend \DIFaddbegin \DIFadd{using the data they have }\DIFaddend about you.  They \DIFdelbegin \DIFdel{have been forced to give
+users a semblance of }\DIFdelend \DIFaddbegin \DIFadd{do give
+users some }\DIFaddend control over personal data, but they frequently change their terms of
 service in opaque ways. Seemingly-innocuous information can give attackers
 valuable clues: restaurant ``likes'' reveal where you were at specific times,
 while funny stories about childhood birthday parties reveal likely answers to
-security questions. Again, it's a good practice to get into the habit of
-checking your privacy settings every time you do some other regular task.
+security questions. \DIFdelbegin \DIFdel{Take advantage of what little protection they have been forced to allow you;
+again, if you }\DIFdelend \DIFaddbegin \DIFadd{Again, it's a good practice to }\DIFaddend get into the habit of
+\DIFdelbegin \DIFdel{doing this }\DIFdelend \DIFaddbegin \DIFadd{checking your privacy settings }\DIFaddend every time you do some other regular task\DIFdelbegin \DIFdel{,
+you're more likely to do both}\DIFdelend .
 
-Unfortunately, even if you do this, information may leak through other
-means. For example, attackers can friend your friends in an attempt to get
+Unfortunately, even if you do this, information may leak through \DIFdelbegin \DIFdel{others}\DIFdelend \DIFaddbegin \DIFadd{other
+means}\DIFaddend . For example, attackers can friend your friends in an attempt to get
 information about you, such as the name of your first school. And as bad as
-social media sites are for social engineering in this way, cell phone
+\DIFdelbegin \DIFdel{major }\DIFdelend social media sites are \DIFaddbegin \DIFadd{for social engineering in this way}\DIFaddend , cell phone
 applications are often worse (not even counting the ones that turn out to be
-government-sponsored spyware \cite{Schn2019}). In general, if a game wants
+government-sponsored spyware \cite{Schn2019}). \DIFdelbegin \DIFdel{If }\DIFdelend \DIFaddbegin \DIFadd{In general, if }\DIFaddend a game wants
 access to your camera and address book, you should probably find a different
 game to play.
 
 Since social media is a fact of life for most of us, you should check your
 settings periodically, just as you would take your car in for an oil change.
-(The authors do these things at the same time in order to remember both.)  Turn
+(\DIFdelbegin \DIFdel{In fact,
+the author does }\DIFdelend \DIFaddbegin \DIFadd{The authors do }\DIFaddend these things at the same time in order to remember both.)  Turn
 off everything you can and then use a tracking blocker such as Ghostery to
 reduce information leakage.
 
@@ -293,14 +406,20 @@ compromised.
   complete stranger into your home unsupervised.
 \end{quote}
 
-\section*{Rule 9: Fight back.}
+\DIFdelbegin %DIFDELCMD < \rulemajor{Rule 9: Fight back.}
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \section*{\DIFadd{Rule 9: Fight back.}}
+\DIFaddend 
 
 Casual attackers may eventually get bored and move on, but like all bullies,
 they will also often revisit previous victims, and even if they don't, they are
 likely to pick new ones. If you have been attacked:
 
 \begin{enumerate}
-\item
+\DIFdelbegin %DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdelend \item
   \textbf{Find support.} Being targeted is frightening and wearying,
   particularly if you belong to one of the many groups that are targeted in real
   life as well as online. Let family, friends, and colleagues know what is
@@ -308,9 +427,9 @@ likely to pick new ones. If you have been attacked:
   if they have been in similar situations.
 
 \item
-  \textbf{Use anti-harassment apps}
-  like \href{https://www.blockpartyapp.com/}{{Block Party}} and document
-  everything. Save emails and take screenshots of sites like Facebook and
+  \textbf{\DIFdelbegin \DIFdel{Document everything.}\DIFdelend \DIFaddbegin \DIFadd{Use anti-harassment apps}\DIFaddend }
+  \DIFaddbegin \DIFadd{like }\href{https://www.blockpartyapp.com/}{{Block Party}} \DIFadd{and document
+  everything. }\DIFaddend Save emails and take screenshots of sites like Facebook and
   Twitter (in case attackers delete or alter material).
 
 \item
@@ -320,15 +439,21 @@ likely to pick new ones. If you have been attacked:
 
 \item
   \textbf{Report the attack.} Social media sites have done everything they can
-  to avoid legal accountability for online attacks, but companies and
+  to avoid \DIFdelbegin \DIFdel{being accountable for facilitating }\DIFdelend \DIFaddbegin \DIFadd{legal accountability for }\DIFaddend online attacks, but companies and
   universities will usually take what steps they can once they know there is a
-  problem. In the authors' experience, they are more inclined to take real
-  action against the attacker if they believe that you might speak publicly
+  problem. In the \DIFdelbegin \DIFdel{author' s }\DIFdelend \DIFaddbegin \DIFadd{authors' }\DIFaddend experience, they are \DIFdelbegin \DIFdel{most likely to do this }\DIFdelend \DIFaddbegin \DIFadd{more inclined to take real
+  action against the attacker }\DIFaddend if they believe that you might speak publicly
   about what has happened and thereby damage their reputation, so never agree to
   a non-disclosure agreement that would prevent you from doing so.
-\end{enumerate}
+\DIFdelbegin %DIFDELCMD < 
 
-\section*{Rule 10: It's not all about you.}
+%DIFDELCMD < %%%
+\DIFdelend \end{enumerate}
+
+\DIFdelbegin %DIFDELCMD < \rulemajor{Rule 10: It's not all about you.}
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \section*{\DIFadd{Rule 10: It's not all about you.}}
+\DIFaddend 
 
 Our final rule brings us full circle to the first one. We don't just wear masks
 to prevent ourselves from becoming infected: we also wear them so that we will
@@ -339,76 +464,29 @@ attackers, in the same way that a sturdy-looking bike lock encourages would-be
 thieves to go after some other bike. And if you \emph{are} compromised, let
 those affected know as soon as you can.
 
-The only long-term way to improve everyone's online safety is to pressure
+\DIFdelbegin \DIFdel{But the }\DIFdelend \DIFaddbegin \DIFadd{The }\DIFaddend only long-term way to improve everyone's online safety is to pressure
 politicians to strengthen liability legislation so that companies, universities,
 and other institutions have real incentives to take meaningful action. Cars and
 drugs are as safe as they are because their manufacturers are liable for
 negligence and harm. The sooner software companies and social media sites are
 liable as well, the safer all of us will be.
 
-\subsection*{Acknowledgments}
+\DIFdelbegin %DIFDELCMD < \begin{quote}
+%DIFDELCMD <   %%%
+\DIFdel{The author is }\DIFdelend \DIFaddbegin \subsection*{\DIFadd{Acknowledgments}}
 
-The authors are grateful to Claire Bowen (Urban Institute), Leigh Honeywell
+\DIFadd{The authors are }\DIFaddend grateful to Claire Bowen (Urban Institute), Leigh Honeywell
 (Tall Poppy), Mike Hoye (Mozilla), Scott Jackson (RStudio), Rick Johnson
 (RStudio), Cheng Soon Ong (CSIRO), and Sydney Young (EFF) for their feedback on
 this article.
+\DIFdelbegin %DIFDELCMD < \end{quote}
+%DIFDELCMD < %%%
+\DIFdelend 
 
-% \bibliography{10-safety}
-
-\begin{thebibliography}{1}
-
-\bibitem{Natu2010}
-{The Editors}.
-\newblock Closing the Climategate.
-\newblock Nature. 2010;468(7322):345--345.
-\newblock doi:{10.1038/468345a}.
-
-\bibitem{FLD}
-{Front Line Defenders}. Digital Security Resources; Viewed 2020-01-25.
-\newblock https://www.frontlinedefenders.org/en/digital-security-resources.
-
-\bibitem{EFJ2015}
-{European Federation of Journalists}. Cyber security training for journalists:
-  Tips and tricks to keep your communications safe; Viewed 2020-01-25.
-\newblock
-  https://europeanjournalists.org/blog/2015/01/22/cyber-security-training-for-journalists/.
-
-\bibitem{EFF}
-{Electronic Frontier Foundation}. Surveillance Self-Defense: Tips, Tools and
-  How-Tos for Safer Online Communications; Viewed 2020-01-25.
-\newblock https://ssd.eff.org/.
-
-\bibitem{SchnBlog}
-Schneier B. Schneier on Security; Viewed 2020-11-03.
-\newblock https://www.schneier.com/.
-
-\bibitem{Stan2016}
-Stanton B, Theofanos MF, Prettyman SS, Furman S.
-\newblock Security Fatigue.
-\newblock {IT} Professional. 2016;18(5):26--32.
-\newblock doi:{10.1109/mitp.2016.84}.
-
-\bibitem{Snow2019}
-Snowden E.
-\newblock Permanent Record.
-\newblock Metropolitan Books; 2019.
-
-\bibitem{Leit2019}
-Leit{\~{a}}o R.
-\newblock Technology-Facilitated Intimate Partner Abuse: a qualitative analysis
-  of data from online domestic abuse forums.
-\newblock Human--Computer Interaction. 2019; p. 1--40.
-\newblock doi:{10.1080/07370024.2019.1685883}.
-
-\bibitem{Schn2019}
-Schneier B. ToTok Is an Emirati Spying Tool; Viewed 2020-01-25.
-\newblock
-  https://www.schneier.com/blog/archives/2019/12/totok\_is\_an\_emi.html.
-
-\end{thebibliography}
+\bibliography{10-safety}
 
 \section*{Appendix: VPNs and Tor}
-  
+
 A Virtual Private Network (VPN) connects your device to a server, then has the
 server make connections to other machines on your behalf. All messages between
 your device and the server are encrypted, and the server can be managed by
