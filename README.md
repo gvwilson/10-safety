@@ -1,6 +1,6 @@
 # Ten Simple Rules for Staying Safe Online
 
-**Danielle Smalls, Greg Wilson**
+**Danielle Smalls & Greg Wilson**
 
 ## Introduction
 
@@ -72,6 +72,17 @@ The corollary to situational awareness is to de-escalate when you can.  Being on
 guard all the time is exhausting and quickly leads to **security fatigue**
 [Stan2016]. If you are too tired to follow good practices, knowing them does
 you no good.
+
+Two technologies that are useful, but only to a certain extent, are Virtual
+Private Networks and a specialized web browser called Tor.  A Virtual Private
+Network (VPN) connects your device to a server, then has the server make
+connections to other machines on your behalf. All messages between your device
+and the server are encrypted, and the server can be managed by professional IT
+staff in a jurisdiction with tight privacy laws to increase your safety. Tor
+routes messages randomly through a network of servers, making traffic much
+harder to track. Both reduce risk, but neither eliminates it if your device is
+compromised, if the VPN is subpoenaed, or if you log in to accounts over Tor
+(thereby revealing your identity to those sites).
 
 ## Rule 3: Use relevant threat models.
 
@@ -367,15 +378,3 @@ this article.
 -   **Stan2016**: Brian Stanton, Mary F. Theofanos, Sandra Spickard Prettyman, and
     Susanne Furman: "[Security Fatigue](https://doi.org/10.1109/mitp.2016.84)".
     *IT Professional*, 18(5), Sep 2016, doi:10.1109/mitp.2016.84.
-
-## Appendix: VPNs and Tor
-
-A Virtual Private Network (VPN) connects your device to a server, then has the
-server make connections to other machines on your behalf. All messages between
-your device and the server are encrypted, and the server can be managed by
-professional IT staff in a jurisdiction with tight privacy laws to increase your
-safety. A specialized web browser called Tor routes messages randomly through a
-network of servers, making traffic much harder to track. Both of these reduce
-risk, but neither eliminates it if your device has been compromised, if the VPN
-is compromised (or subpoenaed), or if you log in to accounts over Tor (thereby
-revealing your identity to those sites).

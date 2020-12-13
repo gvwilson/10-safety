@@ -1,0 +1,30 @@
+Dear Ms. Bolla,
+
+Thank you for your mail of Dec 11 about our manuscript - we have made some changes, but have some questions as well:
+
+1. Pg 1 of the Word document you sent says, "Your Author Contributions will be typset as follows", but then presents a list of bullet points with no names beside them. Are we to fill in our names where appropriate? If so, our contributions were as listed below (none of the other bullets are relevant):
+
+  - Conceptualization: Danielle Smalls, Greg Wilson
+  - Writing original draft: Danielle Smalls, Greg Wilson
+  - Writing review & editing: Danielle Smalls, Greg Wilson
+
+2. The last point on pg 1 of the Word document is, "An Early Version of your manuscript:". We do not know what is being requested here.
+
+3. The corresponding author should be Danielle Smalls, not Greg Wilson. (Greg was listed as the corresponding author for the first draft because he was already set up in Editorial Manager.) We have tried to change this, but the system doesn't seem to want to - are you able to do so on our behalf?
+
+4. Danielle Smalls would like to list "MIR Community Group" as her affiliation. It is a global volunteer organization without a physical headquarters; what should we include as an address?
+
+5. The title "Ten Quick Tips for Staying Safe Online" on pg 2 of the Word document is correct. The short title underneath is currently blank; we think it should be the same as the full title, but we are unable to find a way to change this in the system - can you please do so on our behalf?
+
+Under "Manuscript Requirements" in the Word document:
+
+1. Both of the comments from Reviewer #1 were addressed in the last revision we submitted; however, those changes don't appear to be included in the LaTeX file that appears when we view "Assignment Files" in "Current Task Assignments". In particular, we replaced the ellipsis at the end of Rule 4, put the bibliography inline in the LaTeX file, and corrected the typesetting errors for the institutional author credits - all of these changes are absent from what we download. We have attached that latest revision to this message (with the appendix moved inline as per #5 below); please tell us how to proceed.
+
+2. Similarly, we filled in the financial disclosure with, "The authors received no specific funding for this work." in the last submission. There does not appear to be a way to access this now: when we click "Submit Task" in Editorial Manager, that pane does not appear. Please tell us how to proceed.
+
+3&4. As per #3 in the first section of this letter, Danielle Smalls should be listed as the corresponding author, but we seem to be unable to make that change - can you please do so on our behalf once #4 above (Ms. Smalls' affiliation) is resolved?
+
+5. We were unaware that house style did not allow appendices; unfortunately, the URL you have provided (http://journals.plos.org/ploscompbio/s/supporting-information) currently returns a 404: Not Found. We have therefore moved the paragraph into Rule 2.
+
+Thank you for your assistance,
+Greg Wilson & Danielle Smalls
