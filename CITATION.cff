@@ -3,7 +3,7 @@ message: "Please cite this paper as shown."
 authors:
 - family-names: "Smalls"
   given-names: "Danielle"
-  orcid: ""
+  orcid: "0000-0002-0370-8528"
 - family-names: "Wilson"
   given-names: "Greg"
   orcid: "0000-0001-8659-8979"
@@ -13,7 +13,7 @@ preferred-citation:
   authors:
   - family-names: "Smalls"
     given-names: "Danielle"
-    orcid: ""
+    orcid: "0000-0002-0370-8528"
   - family-names: "Wilson"
     given-names: "Greg"
     orcid: "0000-0001-8659-8979"
